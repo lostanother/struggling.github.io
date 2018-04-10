@@ -2,9 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://blog.lostanother.fun/2018/04/09/test/</loc>
+    <loc>http://blog.lostanother.fun/2017/07/19/notes-on-hexo-building/</loc>
     
-    <lastmod>2018-04-09T08:59:16.562Z</lastmod>
+    <lastmod>2018-04-10T01:47:45.219Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://blog.lostanother.fun/2018/04/10/Hide-your-v2ray-behind-a-normal-websit/</loc>
+    
+    <lastmod>2018-04-10T00:16:58.635Z</lastmod>
     
   </url>
   
@@ -208,13 +215,6 @@
     <loc>http://blog.lostanother.fun/about/index.html</loc>
     
     <lastmod>2017-07-20T15:24:38.094Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://blog.lostanother.fun/2017/07/19/notes-on-hexo-building/</loc>
-    
-    <lastmod>2017-07-20T14:08:31.204Z</lastmod>
     
   </url>
   
