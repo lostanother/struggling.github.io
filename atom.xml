@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://blog.lostanother.fun/"/>
-  <updated>2018-04-13T02:41:00.224Z</updated>
+  <updated>2018-04-13T10:26:09.003Z</updated>
   <id>https://blog.lostanother.fun/</id>
   
   <author>
@@ -14,6 +14,51 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>K线入门笔记</title>
+    <link href="https://blog.lostanother.fun/2018/04/13/learning-of-Candlestick-Charts/"/>
+    <id>https://blog.lostanother.fun/2018/04/13/learning-of-Candlestick-Charts/</id>
+    <published>2018-04-13T09:54:50.000Z</published>
+    <updated>2018-04-13T10:26:09.003Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="1-什么是K线"><a href="#1-什么是K线" class="headerlink" title="1. 什么是K线"></a>1. 什么是K线</h2><p>英文：Candles Chart，又名蜡烛图。日本德川幕府时期米商发明。</p>
+<p><img src="K.PNG" alt="K线的组成"></p>
+<p>影线表明多空搏斗的迹象，实体大小表明市场力量。</p>
+<h2 id="2-单根k线形态"><a href="#2-单根k线形态" class="headerlink" title="2. 单根k线形态"></a>2. 单根k线形态</h2><p><strong>大阳线</strong>，可能盘整末期加速上涨，跌势末期跌势可能减弱甚至反转，涨势末期有见顶回落的风险</p>
+<p><strong>大阴线</strong>，表明有下跌倾向。
+1. 大幅上涨后出现大阴线，如果对应成交量有所放大，表明主力有出货倾向，卖出为宜。
+2. 
+3.  刚开始下跌出现大阴线，对跌势起到确认的作用，建议投资者应当清仓退出
+4.  较大跌幅或连续下跌后出现大阴线，暗示做空能量已接近力竭，建议做好买进准备。</p>
+<p><em>注意：K线图的用处主要是显示市场情绪，释放信号，并不意味着行情立马反转</em></p>
+<p><img src="star of ten.PNG" alt="十字星"></p>
+<p><strong>十字星</strong>，上下影线很长，没有实体或者实体很小
+1. 上升与下跌阶段出现十字星，并未改变趋势，只是起到中继作用。
+2. 上升或下跌末期，代表反转变盘的</p>
+<p><img src="thread of harmer.PNG" alt="锤子线"></p>
+<p><strong>锤子线</strong>，实体很短，下影线长于实体两倍以上，没有上影线或者上影线很短，可阴可阳。主要出现在整体价格的底部，代表买入信号。</p>
+<p><img src="hang.PNG" alt="上吊线"></p>
+<p><strong>上吊线</strong>，与锤子线对应，当出现在顶部且交易量放大时，是卖出的信号。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;1-什么是K线&quot;&gt;&lt;a href=&quot;#1-什么是K线&quot; class=&quot;headerlink&quot; title=&quot;1. 什么是K线&quot;&gt;&lt;/a&gt;1. 什么是K线&lt;/h2&gt;&lt;p&gt;英文：Candles Chart，又名蜡烛图。日本德川幕府时期米商发明。&lt;/p&gt;
+&lt;p&gt;&lt;img
+    
+    </summary>
+    
+      <category term="韭菜之路" scheme="https://blog.lostanother.fun/categories/%E9%9F%AD%E8%8F%9C%E4%B9%8B%E8%B7%AF/"/>
+    
+    
+      <category term="笔记" scheme="https://blog.lostanother.fun/tags/%E7%AC%94%E8%AE%B0/"/>
+    
+      <category term="炒币" scheme="https://blog.lostanother.fun/tags/%E7%82%92%E5%B8%81/"/>
+    
+      <category term="k线" scheme="https://blog.lostanother.fun/tags/k%E7%BA%BF/"/>
+    
+  </entry>
   
   <entry>
     <title>悄悄地翻墙，打枪的不要！——搭建配备WebSocket+TLS+CDN的v2ray服务</title>
@@ -786,27 +831,6 @@ chmod 600 ~/.ssh/authorized_keys
       &lt;p&gt;晚上看完《时间规划局》，第一感受就是寓教于乐的政治经济学教学片。。。  &lt;/p&gt;
 &lt;p&gt;　　这不仅是科幻，这是一面映照现实的镜子——你看看北方有一个蛤蛤千呼万唤死不掉，而南方又有五个孩子在垃圾箱中被闷死，反差多么明显。。。金钱就是生命，生命就是金钱。   &lt;/p&gt;
 &lt;p&gt;　
-    
-    </summary>
-    
-      <category term="有病呻吟" scheme="https://blog.lostanother.fun/categories/essay/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>隐而不见的偏见</title>
-    <link href="https://blog.lostanother.fun/2012/10/19/2012-10-19-%E9%9A%90%E8%80%8C%E4%B8%8D%E8%A7%81%E7%9A%84%E5%81%8F%E8%A7%81-21/"/>
-    <id>https://blog.lostanother.fun/2012/10/19/2012-10-19-隐而不见的偏见-21/</id>
-    <published>2012-10-19T06:37:00.000Z</published>
-    <updated>2018-04-13T02:26:05.713Z</updated>
-    
-    <content type="html"><![CDATA[<p>这礼拜的两件事让我十分羞愧，羞愧于自己并不像自己从前所想的那样客观、无有色眼镜。 一是在这礼拜的《管理学原理》课上，上课开始不久，我发现坐在我前面的位置上的是一个黑人。没见过世面的我顶着那位黑人的厚嘴唇、黑皮肤和毛茸茸的头发盯了好半天——意识到这是上课，告诉自己要收回注意力后还是忍不住去看他，就像小时候在动物园看笼子里的动物的感觉。。。。。。这算不算一种偏见？或许只是一种好奇，但在第一节政治经济学课上的一件事让我无法找到理由为我深深的偏见开脱：在政治经济学课上有一个白人，很帅的白人青年——五官端正，棱角分明，衣冠楚楚文质彬彬。可是在听说他来自中非共和国的那一刻我马上震惊了，这么像高帅富的一个人居然来自非洲——那一个总是与战争，贫穷，饥荒联系在一起的地方？……尽管我知道这种偏见情有可原，但是这总是无可辩驳的——我对来自那块大陆的人有一种偏见，以为他们必然贫穷，落后，黑。。。的偏见！这种偏见在平时隐而不见，我们根本意识不到，可是当我们真正的遇到他们，看到他们时，尤其是在遇到背离自己的偏见的事实时——这种偏见就会突然跳出来扇我这种“所谓的公平乐观的无偏见者”一耳光！！！！！二是在今天上午的罗晓军的外国宪法课上，老师大谈中国人的国民性“喜欢‘捞干的’”、“爱面子”，而西方人“热爱自由”——听到这些我顿感千万匹草泥马呼啸而过——这极大地伤害了中国人民之一，我的感情啊！！！憋到下课后其他同学都走了我问鼓起表白的勇气和老师说了说我的看法，想接着再谈“追求自由不追求自由是决定于人民的现实经济生活状况的，因此捞干的爱面子没有什么可归咎老百姓的。。。”云云二逼想法＠_＠……<br>想不到老师真乃神人也！一句话噎死了我：我从来没有说哪一个更高尚，只是在就是论事而已。。。到头来还是我自己的偏见！我自己脑中不由自主的将“捞干的”、“爱面子”和“愚昧、落后”联系在一起，所以才感到难以忍受……我又被自己隐而不见的偏见扇了一耳光！耳光响亮！！！<br>唉。。。。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;这礼拜的两件事让我十分羞愧，羞愧于自己并不像自己从前所想的那样客观、无有色眼镜。 一是在这礼拜的《管理学原理》课上，上课开始不久，我发现坐在我前面的位置上的是一个黑人。没见过世面的我顶着那位黑人的厚嘴唇、黑皮肤和毛茸茸的头发盯了好半天——意识到这是上课，告诉自己要收回注意力
     
     </summary>
     
