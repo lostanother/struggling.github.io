@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="blog.lostanother.fun/"/>
-  <updated>2018-04-11T16:23:48.004Z</updated>
+  <updated>2018-04-13T02:24:27.926Z</updated>
   <id>blog.lostanother.fun/</id>
   
   <author>
@@ -20,7 +20,7 @@
     <link href="blog.lostanother.fun/2018/04/10/Hide-your-v2ray-behind-a-normal-websit/"/>
     <id>blog.lostanother.fun/2018/04/10/Hide-your-v2ray-behind-a-normal-websit/</id>
     <published>2018-04-10T00:16:58.000Z</published>
-    <updated>2018-04-11T16:23:48.004Z</updated>
+    <updated>2018-04-13T02:24:27.926Z</updated>
     
     <content type="html"><![CDATA[<p>去年10月开始，国内就开始传言GFW已经掌握识别SS流量技术（详见《<a href="https://github.com/shadowsocks/shadowsocks/issues/988" target="_blank" rel="external">ss已经被特征识别了，请大家跑路</a>》），同时许多网友在网上报告自己搭建ss的vps被GFW认证。所幸的是，当时我的vps除了不知道什么原因失联一次，可以说是免于一劫。然而，今年开年党国对vps的屏蔽愈演愈烈（详见《<a href="https://doub.io/sxsx-12/" target="_blank" rel="external">关于最近(01月24日后) GFW 大规模封禁 代理服务器IP 的一些猜测
 </a>》），终于在1月我vastitude才开通不久的ip173开头的vps被封，这家服务商买时说是能换机房，我在被墙当天提交了申请，申请完提示等待，一旦完成会发邮件告知，然而我却一直等到了除夕夜，我alpharack的7刀年付小鸡也惨遭毒手——一时间我居然又回到要仰仗赛风这类安全黑箱的地步！几天后在vastitude重新申请了一边并发工单、一边找网页客服聊天催促，才终于给我换好机房。我的翻墙之梯也才重新安定下来。alpharacks的机器也就挂了个H@H然后随他吃灰了</p>
@@ -150,10 +150,14 @@ RewriteRule /(.*)           http://localhost:3579/$1 [P,L]
     
     </summary>
     
-      <category term="软硬件折腾" scheme="blog.lostanother.fun/categories/%E8%BD%AF%E7%A1%AC%E4%BB%B6%E6%8A%98%E8%85%BE/"/>
+      <category term="软硬兼施" scheme="blog.lostanother.fun/categories/hard-software/"/>
     
     
-      <category term="翻墙 v2ray apache2" scheme="blog.lostanother.fun/tags/%E7%BF%BB%E5%A2%99-v2ray-apache2/"/>
+      <category term="翻墙" scheme="blog.lostanother.fun/tags/%E7%BF%BB%E5%A2%99/"/>
+    
+      <category term="v2ray" scheme="blog.lostanother.fun/tags/v2ray/"/>
+    
+      <category term="apache2" scheme="blog.lostanother.fun/tags/apache2/"/>
     
   </entry>
   
@@ -162,7 +166,7 @@ RewriteRule /(.*)           http://localhost:3579/$1 [P,L]
     <link href="blog.lostanother.fun/2017/07/19/notes-on-hexo-building/"/>
     <id>blog.lostanother.fun/2017/07/19/notes-on-hexo-building/</id>
     <published>2017-07-19T02:06:32.000Z</published>
-    <updated>2018-04-10T03:32:24.957Z</updated>
+    <updated>2018-04-13T02:24:01.636Z</updated>
     
     <content type="html"><![CDATA[<p>一年多前跟着A岛一名热心的肥宅买了现在这个VPS之后，每个月500G的流量都最多用掉2G而已，这个月偶然听说openvz虚拟技术能用谷人希的新加速技术bbr。用上后网速好很多，于是不光网页浏览，bt、pt下载点对点连接全走代理。然而这样也才用到40多G而已。</p>
 <img src="/2017/07/19/notes-on-hexo-building/bandwidth.png" alt="This is an example image" title="This is an example image">
@@ -284,7 +288,7 @@ chmod 600 ~/.ssh/authorized_keys
     
     </summary>
     
-      <category term="软硬件折腾" scheme="blog.lostanother.fun/categories/%E8%BD%AF%E7%A1%AC%E4%BB%B6%E6%8A%98%E8%85%BE/"/>
+      <category term="软硬兼施" scheme="blog.lostanother.fun/categories/hard-software/"/>
     
     
       <category term="vps" scheme="blog.lostanother.fun/tags/vps/"/>
@@ -300,7 +304,7 @@ chmod 600 ~/.ssh/authorized_keys
     <link href="blog.lostanother.fun/2016/05/07/2016-05-07-2016%E5%B9%B405%E6%9C%8807%E6%97%A5-1/"/>
     <id>blog.lostanother.fun/2016/05/07/2016-05-07-2016年05月07日-1/</id>
     <published>2016-05-06T17:37:00.000Z</published>
-    <updated>2017-07-21T11:57:22.528Z</updated>
+    <updated>2018-04-13T02:27:13.206Z</updated>
     
     <content type="html"><![CDATA[<p>可算回到住处了，昨天去撸省BZ市出差真是峰回路转死里逃生。亲眼见到地方恶势力纠结几十快一百个人作阵，用大大小小的车子封路，临走的时候我还看见他们搬出了两桶汽油，想想他们打算干什么，简直脊背发凉。</p>
 <p>事件起因是北京的一个母公司上个月免去了这个省某子公司负责人的全部职务，但是这个原负责人是个地头蛇，坚决不交出公司证照公章，母公司的人去了三次都吃了闭门羹。这次母公司就带着律师和我们公证人员还有十几个膀大腰圈的安保公司的人早上五点半从北京出发开了五个多小时车到现场，中午一点突然进驻公司本打算强行接管子公司，并要求他们交出证照公章，谁知道对方居然更狠，锁好东西然后一问三不知拖延时间，又打电话请示他们负责人叫社会人员来压住场面，反而我们陷入四面楚歌的境地。</p>
@@ -317,7 +321,7 @@ chmod 600 ~/.ssh/authorized_keys
     
     </summary>
     
-      <category term="生活随笔" scheme="blog.lostanother.fun/categories/%E7%94%9F%E6%B4%BB%E9%9A%8F%E7%AC%94/"/>
+      <category term="有病呻吟" scheme="blog.lostanother.fun/categories/essay/"/>
     
     
   </entry>
@@ -327,7 +331,7 @@ chmod 600 ~/.ssh/authorized_keys
     <link href="blog.lostanother.fun/2016/03/31/2016-03-31-2016%E5%B9%B403%E6%9C%8831%E6%97%A5-2/"/>
     <id>blog.lostanother.fun/2016/03/31/2016-03-31-2016年03月31日-2/</id>
     <published>2016-03-31T12:01:00.000Z</published>
-    <updated>2017-07-21T11:57:22.521Z</updated>
+    <updated>2018-04-13T02:27:17.289Z</updated>
     
     <content type="html"><![CDATA[<p>小时候，确切地说是初中高中的时候，我有一种心病，每到周五放学就会发作。</p>
 <p>如今想到这种病，脑海中浮现出来的是夕阳斜照的校园，行色匆匆的路人，喋喋不休的广播，而我则发着呆，可能发呆中不知不觉已经到了家，也可能一直发到学校已是空荡荡一片。那时候我以为自己是珍视同伴，喜欢和同学们在一起玩。</p>
@@ -342,7 +346,7 @@ chmod 600 ~/.ssh/authorized_keys
     
     </summary>
     
-      <category term="生活随笔" scheme="blog.lostanother.fun/categories/%E7%94%9F%E6%B4%BB%E9%9A%8F%E7%AC%94/"/>
+      <category term="有病呻吟" scheme="blog.lostanother.fun/categories/essay/"/>
     
     
   </entry>
@@ -352,7 +356,7 @@ chmod 600 ~/.ssh/authorized_keys
     <link href="blog.lostanother.fun/2016/01/20/2016-01-20-%E2%80%9C%E4%BA%B2%E5%8E%86%E2%80%9D%E7%83%9F%E8%8A%B1%E5%8E%82%E7%88%86%E7%82%B8%E4%BA%8B%E4%BB%B6%E7%9A%84%E6%84%9F%E6%83%B3-3/"/>
     <id>blog.lostanother.fun/2016/01/20/2016-01-20-“亲历”烟花厂爆炸事件的感想-3/</id>
     <published>2016-01-20T04:53:00.000Z</published>
-    <updated>2017-07-21T15:04:00.207Z</updated>
+    <updated>2018-04-13T02:26:54.997Z</updated>
     
     <content type="html"><![CDATA[<p>凌晨十二点多的时候突然外面响起轰隆声，门窗都不停晃动。当时还以为是传说中的冷空气突袭导致的大风，出门感受了下好像也不是多大的风便生奇怪但也未放在心上，继续上网了。过了没多久，弟弟回到家和他说起此事，他说“那不是烟花厂爆炸吗，我加的一个群里都在讨论这个”。“卧槽终于轮到我们了啊”仿佛是故作惊奇地我说出这话，然后寒暄几句就回房间了。</p>
 <p>出乎意料是不假，但是细细品味当时的心情，却其实如死水一般并没有什么感情波动。一直到三点钟在贴吧、微博看各种讨论，我都是一个观察者，看着他们祈福、祝愿……天佑上饶，这几个字就算由我打出来也只是没有倾注感情的空壳而已。看哆啦A梦剧场版时最触动我的一句话就是静香的父亲在评价大雄时说的，他能够“为了别人的幸福而高兴，为别人的不幸而伤心”，我是多么羡慕这样能够与他人感同身受的能力。然而我的心就像被封闭于一个透明的果壳，搜刮心里所有的感受所找到的，最多不过是能够亲历一场大事件的卑鄙的激动心情，对爆炸区居民安危的关心，对烟花厂里是否有人加班，对周围居民如何索赔这些，这些对他人的考虑都只能在现在由冷漠的理性跟随“应当如此”的道德命令翻扒出来扔在脑中，至于关心是什么，我感受不到，更不要提为他们的不幸而伤心了。</p>
@@ -366,7 +370,7 @@ chmod 600 ~/.ssh/authorized_keys
     
     </summary>
     
-      <category term="生活随笔" scheme="blog.lostanother.fun/categories/%E7%94%9F%E6%B4%BB%E9%9A%8F%E7%AC%94/"/>
+      <category term="有病呻吟" scheme="blog.lostanother.fun/categories/essay/"/>
     
     
   </entry>
@@ -376,7 +380,7 @@ chmod 600 ~/.ssh/authorized_keys
     <link href="blog.lostanother.fun/2016/01/17/2016-01-17-%E5%AE%B6%E7%9A%84%E6%84%9F%E8%A7%89/"/>
     <id>blog.lostanother.fun/2016/01/17/2016-01-17-家的感觉/</id>
     <published>2016-01-17T14:49:00.000Z</published>
-    <updated>2017-07-21T16:21:41.842Z</updated>
+    <updated>2018-04-13T02:26:59.620Z</updated>
     
     <content type="html"><![CDATA[<p>晚上又在厂里和大舅、爸妈他们陪某个公安局的领导吃晚饭。</p>
 <p>席间他们不停地“命令”我多吃肉，不断地将话头扔到我身上，催我和那个“领导”说话。匆匆吃完饭起身欲走还被老妈要求对领导说请慢吃的客套话。对家的幻想轻易地破灭了，却唤醒了高中离家前对这里的厌恶。威权，市侩。无论如何我都无法习惯这些所谓成熟与爱。然而我又太冷漠了，太懦弱了，太自私了，没法毅然决然舍弃自由、舍弃家庭。理想让我没法认同家里人，家里人的关爱让我没法罔顾他们的感受说出自己想做的是和工人在一起斗争。内心这两种责任都彼此斗争，或许我会在这斗争中迟早毁灭吧。没有绝对有效的信仰告诉我如何选择，那么不就只能彷徨了吗——不过，也可能这还是我自己懒惰的托词吧，这人真是狡猾恶心啊。</p>
@@ -390,7 +394,7 @@ chmod 600 ~/.ssh/authorized_keys
     
     </summary>
     
-      <category term="生活随笔" scheme="blog.lostanother.fun/categories/%E7%94%9F%E6%B4%BB%E9%9A%8F%E7%AC%94/"/>
+      <category term="有病呻吟" scheme="blog.lostanother.fun/categories/essay/"/>
     
     
   </entry>
@@ -400,7 +404,7 @@ chmod 600 ~/.ssh/authorized_keys
     <link href="blog.lostanother.fun/2016/01/01/2016-01-01-%E3%81%AE%E3%81%9E%E3%81%8B%E3%81%AA%E3%81%84%E3%81%A7%E3%82%88%EF%BC%81-5/"/>
     <id>blog.lostanother.fun/2016/01/01/2016-01-01-のぞかないでよ！-5/</id>
     <published>2015-12-31T18:27:00.000Z</published>
-    <updated>2017-07-21T11:57:22.465Z</updated>
+    <updated>2018-04-13T02:27:21.801Z</updated>
     
     <content type="html"><![CDATA[<p>跨年了啊，先祝自己新年快乐~~</p>
 <p>昨天下午什么都没干，无意义地折腾nook2上的掌阅——持续到傍晚，终于恶心的要死​，逃出门吃了晚餐，然后回来看书。</p>
@@ -419,7 +423,7 @@ chmod 600 ~/.ssh/authorized_keys
     
     </summary>
     
-      <category term="生活随笔" scheme="blog.lostanother.fun/categories/%E7%94%9F%E6%B4%BB%E9%9A%8F%E7%AC%94/"/>
+      <category term="有病呻吟" scheme="blog.lostanother.fun/categories/essay/"/>
     
     
   </entry>
@@ -429,7 +433,7 @@ chmod 600 ~/.ssh/authorized_keys
     <link href="blog.lostanother.fun/2015/12/21/2015-12-21-%E8%9B%80%E7%89%99%E7%9A%84%E7%9C%9F%E7%90%86-7/"/>
     <id>blog.lostanother.fun/2015/12/21/2015-12-21-蛀牙的真理-7/</id>
     <published>2015-12-20T19:45:00.000Z</published>
-    <updated>2017-07-21T11:57:22.448Z</updated>
+    <updated>2018-04-13T02:27:26.417Z</updated>
     
     <content type="html"><![CDATA[<p>吃完晚饭扣塞在牙中间的剩菜的时候突然发现一个恐怖的事实：我右边最里面的那颗上臼齿被蛀了一个大洞&amp;至于多大，大概就是快到牙龈了吧？反正好像几乎被掏空了一样——搞不好说话的时候真的会有回音呵呵= =</p>
 <p>不把刷牙放在心上的自然而然地结果吧，大学以来只用完了一管牙膏……</p>
@@ -445,7 +449,7 @@ chmod 600 ~/.ssh/authorized_keys
     
     </summary>
     
-      <category term="生活随笔" scheme="blog.lostanother.fun/categories/%E7%94%9F%E6%B4%BB%E9%9A%8F%E7%AC%94/"/>
+      <category term="有病呻吟" scheme="blog.lostanother.fun/categories/essay/"/>
     
     
   </entry>
@@ -455,7 +459,7 @@ chmod 600 ~/.ssh/authorized_keys
     <link href="blog.lostanother.fun/2015/12/17/2015-12-17-%E6%9E%9C%E7%84%B6%E8%BF%98%E6%98%AF%E5%9B%9E%E5%AE%B6%E5%90%A7/"/>
     <id>blog.lostanother.fun/2015/12/17/2015-12-17-果然还是回家吧/</id>
     <published>2015-12-16T21:48:00.000Z</published>
-    <updated>2017-07-21T11:57:22.432Z</updated>
+    <updated>2018-04-13T02:27:33.014Z</updated>
     
     <content type="html"><![CDATA[<img src="/2015/12/17/2015-12-17-果然还是回家吧/5728015776061972891.jpg" alt="阿郎的故事" title="阿郎的故事">
 <p>不得不说，发哥真帅啊</p>
@@ -475,7 +479,7 @@ chmod 600 ~/.ssh/authorized_keys
     
     </summary>
     
-      <category term="生活随笔" scheme="blog.lostanother.fun/categories/%E7%94%9F%E6%B4%BB%E9%9A%8F%E7%AC%94/"/>
+      <category term="有病呻吟" scheme="blog.lostanother.fun/categories/essay/"/>
     
     
   </entry>
@@ -485,7 +489,7 @@ chmod 600 ~/.ssh/authorized_keys
     <link href="blog.lostanother.fun/2015/12/16/2015-12-16-%E6%B2%A1%E6%9C%89%E5%81%B6%E5%83%8F%E7%9A%84%E9%BB%84%E6%98%8F-9/"/>
     <id>blog.lostanother.fun/2015/12/16/2015-12-16-没有偶像的黄昏-9/</id>
     <published>2015-12-15T20:22:00.000Z</published>
-    <updated>2017-07-21T11:57:22.413Z</updated>
+    <updated>2018-04-13T02:27:49.565Z</updated>
     
     <content type="html"><![CDATA[<p>昨天满怀期待去参加那个传说中“上班负责看纪录片”的听起来爽透了的纪录片编辑的面试。然后被打击的遍体鳞伤。</p>
 <p>在面试后看得出面试官对我的看法最后是：海投的简历，对编辑工作没兴趣、不了解，就算入职以后也可能因为眼红其他在律师行业同学的高薪干不下去。</p>
@@ -508,7 +512,7 @@ chmod 600 ~/.ssh/authorized_keys
     
     </summary>
     
-      <category term="生活随笔" scheme="blog.lostanother.fun/categories/%E7%94%9F%E6%B4%BB%E9%9A%8F%E7%AC%94/"/>
+      <category term="有病呻吟" scheme="blog.lostanother.fun/categories/essay/"/>
     
     
   </entry>
@@ -518,7 +522,7 @@ chmod 600 ~/.ssh/authorized_keys
     <link href="blog.lostanother.fun/2015/12/02/2015-12-02-%E8%BF%99%E6%98%AF%E4%B8%AA%E8%89%B0%E9%9A%BE%E7%9A%84%E5%86%B3%E5%AE%9A-10/"/>
     <id>blog.lostanother.fun/2015/12/02/2015-12-02-这是个艰难的决定-10/</id>
     <published>2015-12-02T15:28:00.000Z</published>
-    <updated>2017-07-21T11:57:22.397Z</updated>
+    <updated>2018-04-13T02:25:21.673Z</updated>
     
     <content type="html"><![CDATA[<p>上个月29号那天收到一个来自YJ律师事务所的面试通知，职位律师助理。</p>
 <p>30号那天的面试​形式是群面，中途突然被面试官王律师叫出去到一个小会谈室里对我说你是不是应该发现了你和我们所并不适合。我竭力否认后她告知我那就明天上午九点参与培训试试吧。当时我不知道这算什么，和同学谈说或许是廉价苦力之类的。我晚上纠结了许久第二天要不要去，然后决定还是去试试。</p>
@@ -537,7 +541,7 @@ chmod 600 ~/.ssh/authorized_keys
     
     </summary>
     
-      <category term="生活随笔" scheme="blog.lostanother.fun/categories/%E7%94%9F%E6%B4%BB%E9%9A%8F%E7%AC%94/"/>
+      <category term="有病呻吟" scheme="blog.lostanother.fun/categories/essay/"/>
     
     
   </entry>
@@ -547,7 +551,7 @@ chmod 600 ~/.ssh/authorized_keys
     <link href="blog.lostanother.fun/2015/11/06/2015-11-06-%E4%B8%80%E6%AC%A1%E4%B8%A5%E8%82%83%E7%9A%84%E8%87%AA%E6%88%91%E6%89%B9%E8%AF%84/"/>
     <id>blog.lostanother.fun/2015/11/06/2015-11-06-一次严肃的自我批评/</id>
     <published>2015-11-06T00:44:00.000Z</published>
-    <updated>2017-07-21T16:23:21.216Z</updated>
+    <updated>2018-04-13T02:27:04.717Z</updated>
     
     <content type="html"><![CDATA[<p>外面下雪了，从昨晚起微博上就传开了延庆下雪的消息，想不到今年北京这么早就下雪。</p>
 <p>今天六号，今年的生日，应该也是波澜不惊的一天。不过这不重要​。</p>
@@ -578,7 +582,7 @@ chmod 600 ~/.ssh/authorized_keys
     
     </summary>
     
-      <category term="生活随笔" scheme="blog.lostanother.fun/categories/%E7%94%9F%E6%B4%BB%E9%9A%8F%E7%AC%94/"/>
+      <category term="有病呻吟" scheme="blog.lostanother.fun/categories/essay/"/>
     
     
   </entry>
@@ -588,7 +592,7 @@ chmod 600 ~/.ssh/authorized_keys
     <link href="blog.lostanother.fun/2015/11/01/2015-11-01-%E4%BA%BA%E7%94%9F%E8%A5%BF%E9%A9%AC%E5%A1%94-12/"/>
     <id>blog.lostanother.fun/2015/11/01/2015-11-01-人生西马塔-12/</id>
     <published>2015-11-01T13:38:00.000Z</published>
-    <updated>2017-07-21T11:57:22.364Z</updated>
+    <updated>2018-04-13T02:25:28.378Z</updated>
     
     <content type="html"><![CDATA[<p>连续一个礼拜没看专业书啦！！！！！！！！！！！！！！！！！</p>
 <p>今天京东图书满200减100，明知自己已有的实体和电子书一年都看不完了仍然凑了一单助力中国经济复苏呵呵(￣▽￣)”</p>
@@ -607,7 +611,7 @@ chmod 600 ~/.ssh/authorized_keys
     
     </summary>
     
-      <category term="生活随笔" scheme="blog.lostanother.fun/categories/%E7%94%9F%E6%B4%BB%E9%9A%8F%E7%AC%94/"/>
+      <category term="有病呻吟" scheme="blog.lostanother.fun/categories/essay/"/>
     
     
   </entry>
@@ -617,7 +621,7 @@ chmod 600 ~/.ssh/authorized_keys
     <link href="blog.lostanother.fun/2015/09/22/2015-09-22-%E6%96%AD%E7%BD%91%E5%8D%8A%E4%B8%AA%E6%9C%88%E4%B8%AD%E6%97%A5%E8%AE%B0%E8%8B%A5%E5%B9%B2-13/"/>
     <id>blog.lostanother.fun/2015/09/22/2015-09-22-断网半个月中日记若干-13/</id>
     <published>2015-09-22T05:03:00.000Z</published>
-    <updated>2017-07-21T11:57:22.347Z</updated>
+    <updated>2018-04-13T02:25:34.042Z</updated>
     
     <content type="html"><![CDATA[<p>2015.9.3</p>
 <p>昨天真的是过了阴沉灰暗的一天。上午搜索了马克思《青年关于职业选择的考虑》充值信仰，但是看到文中所说的“妄自菲薄是毒蛇，吸走生命和热情，注入绝望和厌世的毒液”，真的自卑了一天，感到自己是多么没用。完全看不进书，到晚上才想到“只要是为了人类的共同幸福，那么个人的艰辛就不能把我们击垮”，才坚定起就算选择了不适合的道路，就算会毁灭自己，也要走下去。</p>
@@ -647,7 +651,7 @@ chmod 600 ~/.ssh/authorized_keys
     
     </summary>
     
-      <category term="生活随笔" scheme="blog.lostanother.fun/categories/%E7%94%9F%E6%B4%BB%E9%9A%8F%E7%AC%94/"/>
+      <category term="有病呻吟" scheme="blog.lostanother.fun/categories/essay/"/>
     
     
   </entry>
@@ -657,7 +661,7 @@ chmod 600 ~/.ssh/authorized_keys
     <link href="blog.lostanother.fun/2015/09/02/2015-09-02-%E9%AB%98%E5%88%86%E5%B0%91%E5%A5%B3%EF%BC%8C%E7%9B%AE%E6%A0%87%E4%B8%8E%E5%8A%AA%E5%8A%9B-14/"/>
     <id>blog.lostanother.fun/2015/09/02/2015-09-02-高分少女，目标与努力-14/</id>
     <published>2015-09-01T21:21:00.000Z</published>
-    <updated>2017-07-21T12:54:12.952Z</updated>
+    <updated>2018-04-13T02:26:49.545Z</updated>
     
     <content type="html"><![CDATA[<p><a target="_blank" rel="nofollow"><img src="./3725321316765804823.jpg" alt=""></a></p>
 <p>前些天听说押切莲介的这本<a href="http://bangumi.tv/subject/43165" target="_blank" rel="external">《高分少女》</a>终于摆脱SNK的官司有望恢复连载，我趁着新闻的热乎劲忙里偷闲把这部恐怖画风的治愈漫追到了35话——不是开玩笑，因为看过<a href="http://bangumi.tv/subject/20035" target="_blank" rel="external">《三角草的春天》</a>我看前几话都适应不过来感觉怪怪的，大概三十话以后有几格作者还真会插入几格典型的惊悚恐怖画面</p>
@@ -674,7 +678,7 @@ chmod 600 ~/.ssh/authorized_keys
     
     </summary>
     
-      <category term="生活随笔" scheme="blog.lostanother.fun/categories/%E7%94%9F%E6%B4%BB%E9%9A%8F%E7%AC%94/"/>
+      <category term="有病呻吟" scheme="blog.lostanother.fun/categories/essay/"/>
     
     
   </entry>
@@ -684,7 +688,7 @@ chmod 600 ~/.ssh/authorized_keys
     <link href="blog.lostanother.fun/2015/08/26/2015-08-26-%E5%8D%9A%E5%AE%A2%E7%9A%84%E5%B9%B4%E4%BB%A3%E4%B8%8E%E5%BE%AE%E5%8D%9A%E7%9A%84%E5%B9%B4%E4%BB%A3-15/"/>
     <id>blog.lostanother.fun/2015/08/26/2015-08-26-博客的年代与微博的年代-15/</id>
     <published>2015-08-25T21:18:00.000Z</published>
-    <updated>2017-07-21T11:57:22.309Z</updated>
+    <updated>2018-04-13T02:25:41.593Z</updated>
     
     <content type="html"><![CDATA[<p>在学校的时候就感觉到，法大bbs中有价值的文章越来越少、我入学那年似乎也是最后一批能写出高质量帖子的学长毕业的一年。  </p>
 <p>大一大二的时候除了关于学校日常的“军都漫步”，我特爱逛“思想交锋”和“他山之石”板块。犹记得有一个讨论毛泽东功过的帖子占了近一百楼，让我翻了一下午。在那时候我对于文革之类的近代史就只停留在主流媒体渲染的惨无人道的水平，这样无甚见识的人当然不可能参与讨论，只求从学长们的讨论中亦步亦趋能够提高自己。除了这类政史讨论，还有技术帝Demon，写了个作弊utorrent逼得六维把我们学校ip段全封了(bgm38)，还有大树，当出现什么热点争议时总能搜集到各种资料，如同学抱怨学校发补助到一卡通而不发到银行卡不方便他们消费时，他找出补助的来由其实就是历史上为避免通货膨胀抵消高校伙食补贴而发的餐补……有次无聊搜索占座，还搜到了一篇基本符合论文标准的关于占座的文章，有数据有分析，头头是道。</p>
@@ -703,7 +707,7 @@ chmod 600 ~/.ssh/authorized_keys
     
     </summary>
     
-      <category term="生活随笔" scheme="blog.lostanother.fun/categories/%E7%94%9F%E6%B4%BB%E9%9A%8F%E7%AC%94/"/>
+      <category term="有病呻吟" scheme="blog.lostanother.fun/categories/essay/"/>
     
     
   </entry>
@@ -713,7 +717,7 @@ chmod 600 ~/.ssh/authorized_keys
     <link href="blog.lostanother.fun/2015/08/22/2015-08-22-%E4%B8%8D%E5%B0%8F%E5%BF%83%E5%8F%88%E6%98%AF%E4%B8%80%E4%B8%AA%E4%B8%8D%E7%9C%A0%E5%A4%9C-16/"/>
     <id>blog.lostanother.fun/2015/08/22/2015-08-22-不小心又是一个不眠夜-16/</id>
     <published>2015-08-21T22:45:00.000Z</published>
-    <updated>2017-07-21T11:57:22.292Z</updated>
+    <updated>2018-04-13T02:25:48.514Z</updated>
     
     <content type="html"><![CDATA[<p>昨晚一不留神又通宵了，先是听了一个半民诉的录音，然后躺在床上看“闲书”。</p>
 <p>讲真，现在教材都没看完的我不该这么气定神闲地看闲书的。​刑诉三国商经理论知产要在剩下半个月看完（如果要留时间做真题的话——看过的书也不知道能记住多少。今年的司考如果再不紧张起来的话大概还是药丸吧，问题是我感觉真的紧张不起来啊，从小过惯了听从他们安排按部就班的生活​，结果是现在都不懂得掌控自己——事实上，高考我也没有觉得多紧张。那时候的我算是个斯多葛主义者吧，相信理性能帮我们安排好一切，平时跟着老师学了高考如何就担忧也没用了。然后除此之外，就沉浸在大众之中，而没有找到坚定的兴趣确立自我。没有目标，散漫状态就是他律不再又不能控制自己中间的任性的意志的状态吧。——无法从他律转变到自律，自由也就无从谈起。​n+1遍嘱咐自己：要自由，就要自律。</p>
@@ -730,7 +734,7 @@ chmod 600 ~/.ssh/authorized_keys
     
     </summary>
     
-      <category term="生活随笔" scheme="blog.lostanother.fun/categories/%E7%94%9F%E6%B4%BB%E9%9A%8F%E7%AC%94/"/>
+      <category term="有病呻吟" scheme="blog.lostanother.fun/categories/essay/"/>
     
     
   </entry>
@@ -740,7 +744,7 @@ chmod 600 ~/.ssh/authorized_keys
     <link href="blog.lostanother.fun/2015/08/07/2015-08-07-%E9%87%8D%E6%96%B0%E5%BC%80%E5%A7%8B%E5%86%99%E7%82%B9%E4%BB%80%E4%B9%88%E5%90%A7-17/"/>
     <id>blog.lostanother.fun/2015/08/07/2015-08-07-重新开始写点什么吧-17/</id>
     <published>2015-08-06T23:09:00.000Z</published>
-    <updated>2017-07-21T11:57:22.274Z</updated>
+    <updated>2018-04-13T02:25:53.473Z</updated>
     
     <content type="html"><![CDATA[<p>无意间发现这个闲置了几年的博客，看了看几年前写的东西发现那时候的自己虽然懂得不多，但至少还是个淳朴的求知者吧，看完什么书还能写点幼稚但却真诚的感受。可是现在都2016年了，博客中最后更新是2012年，中间的时间哪里去了？为了找到中间没有虚度的证据，又去翻了许久没上的豆瓣，除了应付上课的所谓结课论文，最后一篇是2013年6月。这么长时间不读书写作，难怪宅度日深的我更加连说话都变得不会说了吧……至于那之后的时间我干嘛去了……13年暑假结束后开始看动画，14年3月注册了bangumi，然后从那时候动画100看过不到到了现在近250看过……为什么会发生这种转变，以后有时间再谈吧。总之以后没事还是写点啥吧，一来是不能再在所谓“二次元”中逃避，要面对、回归现实社会，二来记录自己或许没什么价值的时间，免得以后再翻到博客，发现自己又有几年时间找不到任何痕迹而惶恐起来。</p>
 <p>博客地址中agony2future没法改了有点头痛，agony是那时候的网名，在当时有特殊的意味和想法，​如今想要清除那些记忆却真如某些心灵鸡汤里说的，像是钉过钉子的木头回不去了。只好继续背负着这个诅咒过活了……</p>
@@ -754,7 +758,7 @@ chmod 600 ~/.ssh/authorized_keys
     
     </summary>
     
-      <category term="生活随笔" scheme="blog.lostanother.fun/categories/%E7%94%9F%E6%B4%BB%E9%9A%8F%E7%AC%94/"/>
+      <category term="有病呻吟" scheme="blog.lostanother.fun/categories/essay/"/>
     
     
   </entry>
@@ -764,7 +768,7 @@ chmod 600 ~/.ssh/authorized_keys
     <link href="blog.lostanother.fun/2013/01/12/2013-01-12-%E5%A5%BD%E4%B8%80%E9%83%A8%E5%A5%BD%E8%8E%B1%E5%9D%9E%E7%BA%A2%E8%89%B2%E7%94%B5%E5%BD%B1-19/"/>
     <id>blog.lostanother.fun/2013/01/12/2013-01-12-好一部好莱坞红色电影-19/</id>
     <published>2013-01-12T15:47:00.000Z</published>
-    <updated>2017-07-21T11:57:22.259Z</updated>
+    <updated>2018-04-13T02:26:01.032Z</updated>
     
     <content type="html"><![CDATA[<p>晚上看完《时间规划局》，第一感受就是寓教于乐的政治经济学教学片。。。  </p>
 <p>　　这不仅是科幻，这是一面映照现实的镜子——你看看北方有一个蛤蛤千呼万唤死不掉，而南方又有五个孩子在垃圾箱中被闷死，反差多么明显。。。金钱就是生命，生命就是金钱。   </p>
@@ -783,7 +787,7 @@ chmod 600 ~/.ssh/authorized_keys
     
     </summary>
     
-      <category term="生活随笔" scheme="blog.lostanother.fun/categories/%E7%94%9F%E6%B4%BB%E9%9A%8F%E7%AC%94/"/>
+      <category term="有病呻吟" scheme="blog.lostanother.fun/categories/essay/"/>
     
     
   </entry>
@@ -793,7 +797,7 @@ chmod 600 ~/.ssh/authorized_keys
     <link href="blog.lostanother.fun/2012/10/19/2012-10-19-%E9%9A%90%E8%80%8C%E4%B8%8D%E8%A7%81%E7%9A%84%E5%81%8F%E8%A7%81-21/"/>
     <id>blog.lostanother.fun/2012/10/19/2012-10-19-隐而不见的偏见-21/</id>
     <published>2012-10-19T06:37:00.000Z</published>
-    <updated>2017-07-21T11:57:22.243Z</updated>
+    <updated>2018-04-13T02:26:05.713Z</updated>
     
     <content type="html"><![CDATA[<p>这礼拜的两件事让我十分羞愧，羞愧于自己并不像自己从前所想的那样客观、无有色眼镜。 一是在这礼拜的《管理学原理》课上，上课开始不久，我发现坐在我前面的位置上的是一个黑人。没见过世面的我顶着那位黑人的厚嘴唇、黑皮肤和毛茸茸的头发盯了好半天——意识到这是上课，告诉自己要收回注意力后还是忍不住去看他，就像小时候在动物园看笼子里的动物的感觉。。。。。。这算不算一种偏见？或许只是一种好奇，但在第一节政治经济学课上的一件事让我无法找到理由为我深深的偏见开脱：在政治经济学课上有一个白人，很帅的白人青年——五官端正，棱角分明，衣冠楚楚文质彬彬。可是在听说他来自中非共和国的那一刻我马上震惊了，这么像高帅富的一个人居然来自非洲——那一个总是与战争，贫穷，饥荒联系在一起的地方？……尽管我知道这种偏见情有可原，但是这总是无可辩驳的——我对来自那块大陆的人有一种偏见，以为他们必然贫穷，落后，黑。。。的偏见！这种偏见在平时隐而不见，我们根本意识不到，可是当我们真正的遇到他们，看到他们时，尤其是在遇到背离自己的偏见的事实时——这种偏见就会突然跳出来扇我这种“所谓的公平乐观的无偏见者”一耳光！！！！！二是在今天上午的罗晓军的外国宪法课上，老师大谈中国人的国民性“喜欢‘捞干的’”、“爱面子”，而西方人“热爱自由”——听到这些我顿感千万匹草泥马呼啸而过——这极大地伤害了中国人民之一，我的感情啊！！！憋到下课后其他同学都走了我问鼓起表白的勇气和老师说了说我的看法，想接着再谈“追求自由不追求自由是决定于人民的现实经济生活状况的，因此捞干的爱面子没有什么可归咎老百姓的。。。”云云二逼想法＠_＠……<br>想不到老师真乃神人也！一句话噎死了我：我从来没有说哪一个更高尚，只是在就是论事而已。。。到头来还是我自己的偏见！我自己脑中不由自主的将“捞干的”、“爱面子”和“愚昧、落后”联系在一起，所以才感到难以忍受……我又被自己隐而不见的偏见扇了一耳光！耳光响亮！！！<br>唉。。。。</p>
 ]]></content>
@@ -804,7 +808,7 @@ chmod 600 ~/.ssh/authorized_keys
     
     </summary>
     
-      <category term="生活随笔" scheme="blog.lostanother.fun/categories/%E7%94%9F%E6%B4%BB%E9%9A%8F%E7%AC%94/"/>
+      <category term="有病呻吟" scheme="blog.lostanother.fun/categories/essay/"/>
     
     
   </entry>
