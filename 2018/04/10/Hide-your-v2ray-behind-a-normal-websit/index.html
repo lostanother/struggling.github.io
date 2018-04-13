@@ -1,0 +1,1109 @@
+<!DOCTYPE html>
+<html style="display: none;" lang="zh">
+    <head>
+    <meta charset="utf-8">
+    <!--
+        © Material Theme
+        https://github.com/viosey/hexo-theme-material
+        Version: 1.5.2 -->
+    <script>
+        window.materialVersion = "1.5.2"
+        // Delete localstorage with these tags
+        window.oldVersion = [
+            'codestartv1',
+            '1.3.4',
+            '1.4.0',
+            '1.4.0b1',
+            '1.5.0'
+        ]
+    </script>
+
+    <!-- dns prefetch -->
+    <meta http-equiv="x-dns-prefetch-control" content="on">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Meta & Info -->
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+    <meta name="renderer" content="webkit">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
+    <!-- Title -->
+    
+    <title>
+        
+            悄悄地翻墙，打枪的不要！——搭建配备WebSocket+TLS+CDN的v2ray服务 | 
+        
+        未来哲♂学研究所
+    </title>
+
+    <!-- Favicons -->
+    <link rel="icon shortcut" type="image/ico" href="/img/favicon.png">
+    <link rel="icon" href="/img/favicon.png">
+
+    <meta name="format-detection" content="telephone=no"/>
+    <meta name="description" itemprop="description" content="">
+    <meta name="keywords" content="null,翻墙,v2ray,apache2,vps">
+    <meta name="theme-color" content="#0097A7">
+
+    <!-- Disable Fucking Bloody Baidu Tranformation -->
+    <meta http-equiv="Cache-Control" content="no-transform" />
+    <meta http-equiv="Cache-Control" content="no-siteapp" />
+
+    <!--[if lte IE 9]>
+        <link rel="stylesheet" href="/css/ie-blocker.css">
+
+        
+            <script src="/js/ie-blocker.zhCN.js"></script>
+        
+    <![endif]-->
+
+    <!-- Import lsloader -->
+    <script>(function(){window.lsloader={jsRunSequence:[],jsnamemap:{},cssnamemap:{}};lsloader.removeLS=function(a){try{localStorage.removeItem(a)}catch(b){}};lsloader.setLS=function(a,c){try{localStorage.setItem(a,c)}catch(b){}};lsloader.getLS=function(a){var c="";try{c=localStorage.getItem(a)}catch(b){c=""}return c};versionString="/*"+(window.materialVersion||"unknownVersion")+"*/";lsloader.clean=function(){try{var b=[];for(var a=0;a<localStorage.length;a++){b.push(localStorage.key(a))}b.forEach(function(e){var f=lsloader.getLS(e);if(window.oldVersion){var d=window.oldVersion.reduce(function(g,h){return g||f.indexOf("/*"+h+"*/")!==-1},false);if(d){lsloader.removeLS(e)}}})}catch(c){}};lsloader.clean();lsloader.load=function(f,a,b,d){if(typeof b==="boolean"){d=b;b=undefined}d=d||false;b=b||function(){};var e;e=this.getLS(f);if(e&&e.indexOf(versionString)===-1){this.removeLS(f);this.requestResource(f,a,b,d);return}if(e){var c=e.split(versionString)[0];if(c!=a){console.log("reload:"+a);this.removeLS(f);this.requestResource(f,a,b,d);return}e=e.split(versionString)[1];if(d){this.jsRunSequence.push({name:f,code:e});this.runjs(a,f,e)}else{document.getElementById(f).appendChild(document.createTextNode(e));b()}}else{this.requestResource(f,a,b,d)}};lsloader.requestResource=function(b,e,a,c){var d=this;if(c){this.iojs(e,b,function(h,f,g){d.setLS(f,h+versionString+g);d.runjs(h,f,g)})}else{this.iocss(e,b,function(f){document.getElementById(b).appendChild(document.createTextNode(f));d.setLS(b,e+versionString+f)},a)}};lsloader.iojs=function(d,b,g){var a=this;a.jsRunSequence.push({name:b,code:""});try{var f=new XMLHttpRequest();f.open("get",d,true);f.onreadystatechange=function(){if(f.readyState==4){if((f.status>=200&&f.status<300)||f.status==304){if(f.response!=""){g(d,b,f.response);return}}a.jsfallback(d,b)}};f.send(null)}catch(c){a.jsfallback(d,b)}};lsloader.iocss=function(f,c,h,a){var b=this;try{var g=new XMLHttpRequest();g.open("get",f,true);g.onreadystatechange=function(){if(g.readyState==4){if((g.status>=200&&g.status<300)||g.status==304){if(g.response!=""){h(g.response);a();return}}b.cssfallback(f,c,a)}};g.send(null)}catch(d){b.cssfallback(f,c,a)}};lsloader.iofonts=function(f,c,h,a){var b=this;try{var g=new XMLHttpRequest();g.open("get",f,true);g.onreadystatechange=function(){if(g.readyState==4){if((g.status>=200&&g.status<300)||g.status==304){if(g.response!=""){h(g.response);a();return}}b.cssfallback(f,c,a)}};g.send(null)}catch(d){b.cssfallback(f,c,a)}};lsloader.runjs=function(f,c,e){if(!!c&&!!e){for(var b in this.jsRunSequence){if(this.jsRunSequence[b].name==c){this.jsRunSequence[b].code=e}}}if(!!this.jsRunSequence[0]&&!!this.jsRunSequence[0].code&&this.jsRunSequence[0].status!="failed"){var a=document.createElement("script");a.appendChild(document.createTextNode(this.jsRunSequence[0].code));a.type="text/javascript";document.getElementsByTagName("head")[0].appendChild(a);this.jsRunSequence.shift();if(this.jsRunSequence.length>0){this.runjs()}}else{if(!!this.jsRunSequence[0]&&this.jsRunSequence[0].status=="failed"){var d=this;var a=document.createElement("script");a.src=this.jsRunSequence[0].path;a.type="text/javascript";this.jsRunSequence[0].status="loading";a.onload=function(){d.jsRunSequence.shift();if(d.jsRunSequence.length>0){d.runjs()}};document.body.appendChild(a)}}};lsloader.tagLoad=function(b,a){this.jsRunSequence.push({name:a,code:"",path:b,status:"failed"});this.runjs()};lsloader.jsfallback=function(c,b){if(!!this.jsnamemap[b]){return}else{this.jsnamemap[b]=b}for(var a in this.jsRunSequence){if(this.jsRunSequence[a].name==b){this.jsRunSequence[a].code="";this.jsRunSequence[a].status="failed";this.jsRunSequence[a].path=c}}this.runjs()};lsloader.cssfallback=function(e,c,b){if(!!this.cssnamemap[c]){return}else{this.cssnamemap[c]=1}var d=document.createElement("link");d.type="text/css";d.href=e;d.rel="stylesheet";d.onload=d.onerror=b;var a=document.getElementsByTagName("script")[0];a.parentNode.insertBefore(d,a)};lsloader.runInlineScript=function(c,b){var a=document.getElementById(b).innerText;this.jsRunSequence.push({name:c,code:a});this.runjs()}})();</script>
+
+    <!-- Import queue -->
+    <script>function Queue(){this.dataStore=[];this.offer=b;this.poll=d;this.execNext=a;this.debug=false;this.startDebug=c;function b(e){if(this.debug){console.log("Offered a Queued Function.")}if(typeof e==="function"){this.dataStore.push(e)}else{console.log("You must offer a function.")}}function d(){if(this.debug){console.log("Polled a Queued Function.")}return this.dataStore.shift()}function a(){var e=this.poll();if(e!==undefined){if(this.debug){console.log("Run a Queued Function.")}e()}}function c(){this.debug=true}}var queue=new Queue();</script>
+
+    <!-- Import CSS -->
+    
+        <style id="material_css"></style><script>if(typeof window.lsLoadCSSMaxNums === "undefined")window.lsLoadCSSMaxNums = 0;window.lsLoadCSSMaxNums++;lsloader.load("material_css","/css/material.min.css?Z7a72R1E4SxzBKR/WGctOA==",function(){if(typeof window.lsLoadCSSNums === "undefined")window.lsLoadCSSNums = 0;window.lsLoadCSSNums++;if(window.lsLoadCSSNums == window.lsLoadCSSMaxNums)document.documentElement.style.display="";}, false)</script>
+        <style id="style_css"></style><script>if(typeof window.lsLoadCSSMaxNums === "undefined")window.lsLoadCSSMaxNums = 0;window.lsLoadCSSMaxNums++;lsloader.load("style_css","/css/style.min.css?NKhlKQkXw/c66TR5p4wO+w==",function(){if(typeof window.lsLoadCSSNums === "undefined")window.lsLoadCSSNums = 0;window.lsLoadCSSNums++;if(window.lsLoadCSSNums == window.lsLoadCSSMaxNums)document.documentElement.style.display="";}, false)</script>
+
+        
+
+    
+
+    
+
+    <!-- Config CSS -->
+
+<!-- Other Styles -->
+<style>
+  body, html {
+    font-family: Roboto, "Helvetica Neue", Helvetica, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "微软雅黑", Arial, sans-serif;
+    overflow-x: hidden !important;
+  }
+  
+  code {
+    font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+  }
+
+  a {
+    color: #00838F;
+  }
+
+  .mdl-card__media,
+  #search-label,
+  #search-form-label:after,
+  #scheme-Paradox .hot_tags-count,
+  #scheme-Paradox .sidebar_archives-count,
+  #scheme-Paradox .sidebar-colored .sidebar-header,
+  #scheme-Paradox .sidebar-colored .sidebar-badge{
+    background-color: #0097A7 !important;
+  }
+
+  /* Sidebar User Drop Down Menu Text Color */
+  #scheme-Paradox .sidebar-colored .sidebar-nav>.dropdown>.dropdown-menu>li>a:hover,
+  #scheme-Paradox .sidebar-colored .sidebar-nav>.dropdown>.dropdown-menu>li>a:focus {
+    color: #0097A7 !important;
+  }
+
+  #post_entry-right-info,
+  .sidebar-colored .sidebar-nav li:hover > a,
+  .sidebar-colored .sidebar-nav li:hover > a i,
+  .sidebar-colored .sidebar-nav li > a:hover,
+  .sidebar-colored .sidebar-nav li > a:hover i,
+  .sidebar-colored .sidebar-nav li > a:focus i,
+  .sidebar-colored .sidebar-nav > .open > a,
+  .sidebar-colored .sidebar-nav > .open > a:hover,
+  .sidebar-colored .sidebar-nav > .open > a:focus,
+  #ds-reset #ds-ctx .ds-ctx-entry .ds-ctx-head a {
+    color: #0097A7 !important;
+  }
+
+  .toTop {
+    background: #757575 !important;
+  }
+
+  .material-layout .material-post>.material-nav,
+  .material-layout .material-index>.material-nav,
+  .material-nav a {
+    color: #757575;
+  }
+
+  #scheme-Paradox .MD-burger-layer {
+    background-color: #757575;
+  }
+
+  #scheme-Paradox #post-toc-trigger-btn {
+    color: #757575;
+  }
+
+  .post-toc a:hover {
+    color: #00838F;
+    text-decoration: underline;
+  }
+
+</style>
+
+
+<!-- Theme Background Related-->
+
+    <style>
+      body{
+        background-image: url(/img/bg.png);
+      }
+    </style>
+
+
+
+
+<!-- Fade Effect -->
+
+    <style>
+      .fade {
+        transition: all 800ms linear;
+        -webkit-transform: translate3d(0,0,0);
+        -moz-transform: translate3d(0,0,0);
+        -ms-transform: translate3d(0,0,0);
+        -o-transform: translate3d(0,0,0);
+        transform: translate3d(0,0,0);
+        opacity: 1;
+      }
+
+      .fade.out{
+        opacity: 0;
+      }
+    </style>
+
+
+<!-- Import Font -->
+<!-- Import Roboto -->
+
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500" rel="stylesheet">
+
+
+<!-- Import Material Icons -->
+
+
+    <style id="material_icons"></style><script>if(typeof window.lsLoadCSSMaxNums === "undefined")window.lsLoadCSSMaxNums = 0;window.lsLoadCSSMaxNums++;lsloader.load("material_icons","/css/material-icons.css?pqhB/Rd/ab0H2+kZp0RDmw==",function(){if(typeof window.lsLoadCSSNums === "undefined")window.lsLoadCSSNums = 0;window.lsLoadCSSNums++;if(window.lsLoadCSSNums == window.lsLoadCSSMaxNums)document.documentElement.style.display="";}, false)</script>
+
+
+
+
+    <!-- Import jQuery -->
+    
+        <script>lsloader.load("jq_js","/js/jquery.min.js?qcusAULNeBksqffqUM2+Ig==", true)</script>
+    
+
+    <!-- WebAPP Icons -->
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="application-name" content="未来哲♂学研究所">
+    <meta name="msapplication-starturl" content="blog.lostanother.fun/2018/04/10/Hide-your-v2ray-behind-a-normal-websit/">
+    <meta name="msapplication-navbutton-color" content="#0097A7">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-title" content="未来哲♂学研究所">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon" href="/img/favicon.png">
+
+    <!-- Site Verification -->
+    
+    
+
+    <!-- RSS -->
+    
+
+    <!-- The Open Graph protocol -->
+    <meta property="og:url" content="blog.lostanother.fun/2018/04/10/Hide-your-v2ray-behind-a-normal-websit/">
+    <meta property="og:type" content="blog">
+    <meta property="og:title" content="悄悄地翻墙，打枪的不要！——搭建配备WebSocket+TLS+CDN的v2ray服务 | 未来哲♂学研究所">
+    <meta property="og:image" content="/img/favicon.png">
+    <meta property="og:description" content="">
+    <meta property="og:article:tag" content="翻墙"> <meta property="og:article:tag" content="v2ray"> <meta property="og:article:tag" content="apache2"> <meta property="og:article:tag" content="vps"> 
+
+    
+        <meta property="article:published_time" content="Tue Apr 10 2018 08:16:58 GMT+0800">
+        <meta property="article:modified_time" content="Fri Apr 13 2018 10:41:00 GMT+0800">
+    
+
+    <!-- The Twitter Card protocol -->
+    <meta name="twitter:card" content="summary_large_image">
+
+    <!-- Add canonical link for SEO -->
+    
+        <link rel="canonical" href="blog.lostanother.fun/2018/04/10/Hide-your-v2ray-behind-a-normal-websit/index.html" />
+    
+
+    <!-- Structured-data for SEO -->
+    
+        
+
+
+<script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "BlogPosting",
+    "mainEntityOfPage": "blog.lostanother.fun/2018/04/10/Hide-your-v2ray-behind-a-normal-websit/index.html",
+    "headline": "悄悄地翻墙，打枪的不要！——搭建配备WebSocket+TLS+CDN的v2ray服务",
+    "datePublished": "Tue Apr 10 2018 08:16:58 GMT+0800",
+    "dateModified": "Fri Apr 13 2018 10:41:00 GMT+0800",
+    "author": {
+        "@type": "Person",
+        "name": "another",
+        "image": {
+            "@type": "ImageObject",
+            "url": "/img/avatar.png"
+        },
+        "description": "错误的世界里没有正确的生活"
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "未来哲♂学研究所",
+        "logo": {
+            "@type":"ImageObject",
+            "url": "/img/favicon.png"
+        }
+    },
+    "keywords": ",翻墙,v2ray,apache2,vpsnull",
+    "description": "",
+}
+</script>
+
+
+    
+
+    <!-- Analytics -->
+    
+        <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+    ga('create', 'UA-102819855-1', 'auto');ga('send', 'pageview');
+</script>
+    
+    
+    
+
+    <!-- Custom Head -->
+    
+
+</head>
+
+
+    
+        <body id="scheme-Paradox" class="lazy">
+            <div class="material-layout  mdl-js-layout has-drawer is-upgraded">
+                
+
+                <!-- Main Container -->
+                <main class="material-layout__content" id="main">
+
+                    <!-- Top Anchor -->
+                    <div id="top"></div>
+
+                    
+                        <!-- Hamburger Button -->
+                        <button class="MD-burger-icon sidebar-toggle">
+                            <span class="MD-burger-layer"></span>
+                        </button>
+                    
+
+                    <!-- Post TOC -->
+
+    
+    <!-- Back Button -->
+    <!--
+    <div class="material-back" id="backhome-div" tabindex="0">
+        <a class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon"
+           href="#" onclick="window.history.back();return false;"
+           target="_self"
+           role="button"
+           data-upgraded=",MaterialButton,MaterialRipple">
+            <i class="material-icons" role="presentation">arrow_back</i>
+            <span class="mdl-button__ripple-container">
+                <span class="mdl-ripple"></span>
+            </span>
+        </a>
+    </div>
+    -->
+
+
+    <!-- Left aligned menu below button -->
+    
+    
+    <button id="post-toc-trigger-btn"
+        class="mdl-button mdl-js-button mdl-button--icon">
+        <i class="material-icons">format_list_numbered</i>
+    </button>
+
+    <ul class="post-toc-wrap mdl-menu mdl-menu--bottom-left mdl-js-menu mdl-js-ripple-effect" for="post-toc-trigger-btn" style="max-height:80vh; overflow-y:scroll;">
+        <ol class="post-toc"><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#准备材料"><span class="post-toc-number">1.</span> <span class="post-toc-text">准备材料</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#安装v2ray服务端"><span class="post-toc-number">2.</span> <span class="post-toc-text">安装v2ray服务端</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#配置TLS"><span class="post-toc-number">3.</span> <span class="post-toc-text">配置TLS</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#配置Apache转发v2ray流量"><span class="post-toc-number">4.</span> <span class="post-toc-text">配置Apache转发v2ray流量</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#v2ray服务端配置"><span class="post-toc-number">5.</span> <span class="post-toc-text">v2ray服务端配置</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#CDN配置"><span class="post-toc-number">6.</span> <span class="post-toc-text">CDN配置</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#客户端配置-windows"><span class="post-toc-number">7.</span> <span class="post-toc-text">客户端配置(windows)</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#参考资料"><span class="post-toc-number">8.</span> <span class="post-toc-text">参考资料</span></a></li></ol>
+    </ul>
+    
+
+
+
+
+<!-- Layouts -->
+
+    <!-- Post Module -->
+    <div class="material-post_container">
+
+        <div class="material-post mdl-grid">
+            <div class="mdl-card mdl-shadow--4dp mdl-cell mdl-cell--12-col">
+
+                <!-- Post Header(Thumbnail & Title) -->
+                
+    <!-- Paradox Post Header -->
+    
+        
+            <!-- Random Thumbnail -->
+            <div class="post_thumbnail-random mdl-card__media mdl-color-text--grey-50">
+            <script type="text/ls-javascript" id="post-thumbnail-script">
+    var randomNum = Math.floor(Math.random() * 19 + 1);
+
+    $('.post_thumbnail-random').attr('data-original', '/img/random/material-' + randomNum + '.png');
+    $('.post_thumbnail-random').addClass('lazy');
+</script>
+
+        
+    
+            <p class="article-headline-p">
+                悄悄地翻墙，打枪的不要！——搭建配备WebSocket+TLS+CDN的v2ray服务
+            </p>
+        </div>
+
+
+
+
+
+                
+                    <!-- Paradox Post Info -->
+                    <div class="mdl-color-text--grey-700 mdl-card__supporting-text meta">
+
+    <!-- Author Avatar -->
+    <div id="author-avatar">
+        <img src="/img/avatar.png" width="44px" height="44px" alt="Author Avatar"/>
+    </div>
+    <!-- Author Name & Date -->
+    <div>
+        <strong>another</strong>
+        <span>4月 10, 2018</span>
+    </div>
+
+    <div class="section-spacer"></div>
+
+    <!-- Favorite -->
+    <!--
+        <button id="article-functions-like-button" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon btn-like">
+            <i class="material-icons" role="presentation">favorite</i>
+            <span class="visuallyhidden">favorites</span>
+        </button>
+    -->
+
+    <!-- Qrcode -->
+    
+
+    <!-- Tags (bookmark) -->
+    
+    <button id="article-functions-viewtags-button" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon">
+        <i class="material-icons" role="presentation">bookmark</i>
+        <span class="visuallyhidden">bookmark</span>
+    </button>
+    <ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="article-functions-viewtags-button">
+        <li class="mdl-menu__item">
+        <a class="post_tag-link" href="/tags/apache2/">apache2</a></li><li class="mdl-menu__item"><a class="post_tag-link" href="/tags/v2ray/">v2ray</a></li><li class="mdl-menu__item"><a class="post_tag-link" href="/tags/vps/">vps</a></li><li class="mdl-menu__item"><a class="post_tag-link" href="/tags/翻墙/">翻墙</a>
+    </ul>
+    
+
+    <!-- Share -->
+    
+        <button id="article-fuctions-share-button" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon">
+    <i class="material-icons" role="presentation">share</i>
+    <span class="visuallyhidden">share</span>
+</button>
+<ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="article-fuctions-share-button">
+    
+
+    
+
+    <!-- Share Weibo -->
+    
+        <a class="post_share-link" href="http://service.weibo.com/share/share.php?appkey=&title=悄悄地翻墙，打枪的不要！——搭建配备WebSocket+TLS+CDN的v2ray服务&url=blog.lostanother.fun/2018/04/10/Hide-your-v2ray-behind-a-normal-websit/index.html&pic=blog.lostanother.fun/img/favicon.png&searchPic=false&style=simple" target="_blank">
+            <li class="mdl-menu__item">
+                分享到微博
+            </li>
+        </a>
+    
+
+    <!-- Share Twitter -->
+    
+        <a class="post_share-link" href="https://twitter.com/intent/tweet?text=悄悄地翻墙，打枪的不要！——搭建配备WebSocket+TLS+CDN的v2ray服务&url=blog.lostanother.fun/2018/04/10/Hide-your-v2ray-behind-a-normal-websit/index.html&via=another" target="_blank">
+            <li class="mdl-menu__item">
+                分享到 Twitter
+            </li>
+        </a>
+    
+
+    <!-- Share Facebook -->
+    
+
+    <!-- Share Google+ -->
+    
+
+    <!-- Share LinkedIn -->
+    
+
+    <!-- Share QQ -->
+    
+
+    <!-- Share Telegram -->
+    
+</ul>
+
+    
+</div>
+
+                
+
+                <!-- Post Content -->
+                <div id="post-content" class="mdl-color-text--grey-700 mdl-card__supporting-text fade out">
+    
+        <p>去年10月开始，国内就开始传言GFW已经掌握识别SS流量技术（详见《<a href="https://github.com/shadowsocks/shadowsocks/issues/988" target="_blank" rel="external">ss已经被特征识别了，请大家跑路</a>》），同时许多网友在网上报告自己搭建ss的vps被GFW认证。所幸的是，当时我的vps除了不知道什么原因失联一次，可以说是免于一劫。然而，今年开年党国对vps的屏蔽愈演愈烈（详见《<a href="https://doub.io/sxsx-12/" target="_blank" rel="external">关于最近(01月24日后) GFW 大规模封禁 代理服务器IP 的一些猜测
+</a>》），终于在1月我vastitude才开通不久的ip173开头的vps被封，这家服务商买时说是能换机房，我在被墙当天提交了申请，申请完提示等待，一旦完成会发邮件告知，然而我却一直等到了除夕夜，我alpharack的7刀年付小鸡也惨遭毒手——一时间我居然又回到要仰仗赛风这类安全黑箱的地步！几天后在vastitude重新申请了一边并发工单、一边找网页客服聊天催促，才终于给我换好机房。我的翻墙之梯也才重新安定下来。alpharacks的机器也就挂了个H@H然后随他吃灰了</p>
+<p>前些天在<a href="https://chunyao.org/3070#comment-2804" target="_blank" rel="external">《Alpharacks - 争议很大的一家IDC》</a>这篇博文的指引下发工单换了个ip，痛定思痛，为了降低二进宫的概率我决定要重新搭建一架钛合金梯子。现记下搭建的过程以备将来不时之需。</p>
+<h2 id="准备材料"><a href="#准备材料" class="headerlink" title="准备材料"></a>准备材料</h2><ol>
+<li>系统ubuntu 16.04的vps</li>
+<li>一个指向vps的ip的域名</li>
+</ol>
+<h2 id="安装v2ray服务端"><a href="#安装v2ray服务端" class="headerlink" title="安装v2ray服务端"></a>安装v2ray服务端</h2><p>因为v2ray这个死傲娇要求服务端和本地的时间差少于两分钟。首先要输入<code>date -R</code>验证时间。注意输出结果最后的<code>-400</code>的含义是时区，即西五区。我的小鸡时间就是西五区，与东八区刚好相差12个小时。</p>
+<p>下载并运行服务端安装脚本</p>
+<pre><code>wget https://install.direct/go.sh
+sudo bash go.sh
+</code></pre><p>不出意外此时服务端已经安装完毕，可以输入命令</p>
+<pre><code>sudo systemctl start v2ray
+</code></pre><p>启动之，但目前还远不能用。</p>
+<h2 id="配置TLS"><a href="#配置TLS" class="headerlink" title="配置TLS"></a>配置TLS</h2><p>acme.sh能够自动更新证书，但自动更新包括下文提到的重启apache或者nginx——视你使用哪个而定——都要求root权限，如果在普通账户下配置了自动更新的计划执行时可能出现权限不够的问题。因此最好切换到root账户下进行下列操作。</p>
+<p>首先输入以下命令，acme.sh 会安装到 <code>~/.acme.sh</code> 目录下。</p>
+<pre><code>curl  https://get.acme.sh | sh
+</code></pre><p>执行以下命令生成证书：</p>
+<pre><code>~/.acme.sh/acme.sh --issue -d 自己的域名 --standalone -k ec-256
+</code></pre><p>这个命令会用到 80 端口，因此在执行之前要确保关掉了<code>apache</code>和<code>ngninx</code>之类会监听80端口的程序。为了保证将来acme。sh自动更新证书的顺利执行，我在<code>/etc/apache2/ports.conf</code>把apache默认监听的端口从80改到了443。</p>
+<p>然后将证书导入到<code>/etc/v2ray</code>中</p>
+<pre><code>~/.acme.sh/acme.sh --installcert -d blog.lostanother.fun --ecc\
+           --keypath       /etc/v2ray/v2ray.key  \
+           --fullchainpath /etc/v2ray/v2ray.crt \
+           --reloadcmd     &quot;service apache2 force-reload&quot;
+</code></pre><p>使用<code>installcert</code>参数执行的操作会被acme.sh记录下来，在下次证书更新时再次执行，避免证书申请下来了还要人工安装证书并载入Apache。
+至此ssl证书就一劳永与地申请、安装完毕了。</p>
+<h2 id="配置Apache转发v2ray流量"><a href="#配置Apache转发v2ray流量" class="headerlink" title="配置Apache转发v2ray流量"></a>配置Apache转发v2ray流量</h2><p>apache安装好后，开启以下模组</p>
+<pre><code>sudo a2enmod ssl
+sudo a2enmod proxy
+sudo a2enmod proxy_wstunnel
+sudo a2enmod proxy_http
+sudo a2enmod rewrite
+sudo a2enmod headers
+</code></pre><p>编辑配置文件<code>/etc/apache2/000-default.conf</code></p>
+<pre><code>&lt;VirtualHost *:443&gt;
+
+    ServerName yourdomain.com.
+    ServerAlias yourdomain.com.
+    ##SSL Engine Switch:
+    #Enable/Disable SSL for this virtual host.
+    SSLEngine On
+
+    RewriteEngine On
+      RewriteCond %{HTTP:Upgrade} =websocket [NC]
+     RewriteRule /(.*)           ws://localhost:3579/$1 [P,L]
+    RewriteCond %{HTTP:Upgrade} !=websocket [NC]
+    RewriteRule /(.*)           http://localhost:3579/$1 [P,L]
+
+
+    ##Proxy to port 3579
+    #Replace xxx.xxx.xxx.xxx with your servers IP adress or hostname
+    #Replace yourCertname with your servers SSL certificate name
+    SSLProxyEngine On
+    Proxypass /ray http://127.0.0.1:3579   
+    ProxyPassReverse /ray http://127.0.0.1:3579
+
+    SSLCertificateFile /etc/v2ray/v2ray.crt
+    SSLCertificateKeyFile /etc/v2ray/v2ray.key
+
+&lt;/VirtualHost&gt;
+</code></pre><p>以上配置来自<a href="https://dakai.github.io/2017/12/22/v2ray-websocket-tls-apache.html" target="_blank" rel="external">这篇博文</a>，我在使用后发现无法再使用443端口访问放在vps上的博客了。研究了一番apache的转发规则后发现这个配置中的转发规则是吧websocket和http流量都转发给了3579，也就是我们即将配置的v2ray监听的端口。既然我们选择用websocket流量连接v2ray，也就没必要转发http流量了，因此可以删掉</p>
+<pre><code>RewriteCond %{HTTP:Upgrade} !=websocket [NC]
+RewriteRule /(.*)           http://localhost:3579/$1 [P,L]
+</code></pre><p>只转发代理流量，让正常的http流量正常进出，保证博客的正常浏览。</p>
+<h2 id="v2ray服务端配置"><a href="#v2ray服务端配置" class="headerlink" title="v2ray服务端配置"></a>v2ray服务端配置</h2><p>打开<code>/etc/v2ray/config.json</code>，如下进行配置</p>
+<pre><code>  {
+&quot;log&quot; : {
+  &quot;access&quot;: &quot;/var/log/v2ray/access.log&quot;,
+  &quot;error&quot;: &quot;/var/log/v2ray/error.log&quot;,
+  &quot;loglevel&quot;: &quot;warning&quot;
+},
+&quot;inbound&quot;: {
+  &quot;port&quot;: 3579, //应于Apache转发流量的目标端口一致
+  &quot;listen&quot;:&quot;127.0.0.1&quot;, //只监听本地端口，避免被外部主动嗅探
+  &quot;protocol&quot;: &quot;vmess&quot;,
+  &quot;settings&quot;: {
+    &quot;clients&quot;: [
+      {
+        &quot;id&quot;: &quot;你的UUID&quot;, //UUID是类似密码一般的存在，不要随意编写，可在第三方客户端如v2rayN或在线（如UUIDgenerator.net）生成
+        &quot;level&quot;: 1,
+        &quot;alterId&quot;: 64
+      }   
+      ]
+  },
+  &quot;streamSettings&quot;:{
+    &quot;network&quot;:&quot;ws&quot;,
+    &quot;wsSettings&quot;:{
+      &quot;path&quot;:&quot;/ray&quot; //与Apache配置中路径一致，可以且鼓励自定义该路径
+      }
+    }
+  },
+&quot;outbound&quot;: {
+&quot;protocol&quot;: &quot;freedom&quot;,
+&quot;settings&quot;: {}
+},
+&quot;outboundDetour&quot;: [
+{
+&quot;protocol&quot;: &quot;blackhole&quot;,
+&quot;settings&quot;: {},
+&quot;tag&quot;: &quot;blocked&quot;
+  }
+ ]
+}
+</code></pre><h2 id="CDN配置"><a href="#CDN配置" class="headerlink" title="CDN配置"></a>CDN配置</h2><p>这个就没什么好说的了，注册个cloudflare账号，将其作为DNS服务器，然后给想要保护的域名打开cdn开关就行。</p>
+<p><img src="cdn.PNG" alt=""></p>
+<h2 id="客户端配置-windows"><a href="#客户端配置-windows" class="headerlink" title="客户端配置(windows)"></a>客户端配置(windows)</h2><p><a href="cdn.PNGhttps://github.com/v2ray/v2ray-core/releases" target="_blank" rel="external">这里</a>下载v2ray客户端（其实和服务端是同一套程序），<a href="https://github.com/2dust/v2rayN/releases" target="_blank" rel="external">这里</a>下载第三方程序v2rayN。解压到同一个文件夹内，打开v2rayN，点击<code>服务器-添加[vmess]服务器</code></p>
+<p>在弹出的配置窗口内如图填写</p>
+<p><img src="v2rayN.PNG" alt=""></p>
+<p><code>地址</code>处填写你的域名</p>
+<p><code>用户ID</code>处填写你的UUID</p>
+<p><code>别名</code>处你自己给这个v2ray服务起个名字</p>
+<p><code>伪装域名</code>处填写上文Apache和v2ray中填写的路径。注意<code>/ray</code>和<code>/ray/</code>是不一样的`</p>
+<p>不出意外的话，客户端至此就已经配置完成。点击确定，设置好浏览器代理就可以翻墙上网了</p>
+<h2 id="参考资料"><a href="#参考资料" class="headerlink" title="参考资料"></a>参考资料</h2><ul>
+<li><a href="https://toutyrater.github.io/" target="_blank" rel="external">V2Ray 配置指南</a></li>
+<li><a href="https://dakai.github.io/2017/12/22/v2ray-websocket-tls-apache.html" target="_blank" rel="external">在Apache服务器上实现tls Websocket转发v2ray代理
+</a></li>
+<li><a href="https://www.yiwan.pro/index.php/ltd_documents/363-using-acmesh-to-start-https.html" target="_blank" rel="external">﻿利用acme.sh启用https的一点记录</a></li>
+</ul>
+
+        
+    
+
+    
+</div>
+
+
+                
+
+                <!-- Post Comments -->
+                
+                    
+    <!-- 使用 DISQUS -->
+<div id="disqus-comment">
+    <div id="disqus_thread"></div>
+<script type="text/javascript">
+    var disqus_config = function () {
+        this.page.url = 'blog.lostanother.fun/2018/04/10/Hide-your-v2ray-behind-a-normal-websit/';  // Replace PAGE_URL with your page's canonical URL variable
+        this.page.identifier = 'blog.lostanother.fun/2018/04/10/Hide-your-v2ray-behind-a-normal-websit/'; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+    };
+</script>
+<script type="text/ls-javascript" id="disqus-thread-script">
+    queue.offer(function() {
+            (function() { // DON'T EDIT BELOW THIS LINE
+                var d = document;
+                var s = d.createElement('script');
+                s.src = '//lostanother.disqus.com/embed.js';
+                s.setAttribute('data-timestamp', + new Date());
+                (d.head || d.body).appendChild(s);
+            })();
+        });
+</script>
+
+</div>
+<style>
+    #disqus-comment{
+        background-color: #eee;
+        padding: 2pc;
+    }
+</style>
+
+                
+            </div>
+
+            <!-- Post Prev & Next Nav -->
+            <nav class="material-nav mdl-color-text--grey-50 mdl-cell mdl-cell--12-col">
+    <!-- Prev Nav -->
+    
+
+    <!-- Section Spacer -->
+    <div class="section-spacer"></div>
+
+    <!-- Next Nav -->
+    
+        <a href="/2017/07/19/notes-on-hexo-building/" id="post_nav-older" class="next-content">
+            旧篇
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon mdl-color--white mdl-color-text--grey-900" role="presentation">
+                <i class="material-icons">arrow_forward</i>
+            </button>
+        </a>
+    
+</nav>
+
+        </div>
+    </div>
+
+
+
+                    
+                        <!-- Overlay For Active Sidebar -->
+<div class="sidebar-overlay"></div>
+
+<!-- Material sidebar -->
+<aside id="sidebar" class="sidebar sidebar-colored sidebar-fixed-left" role="navigation">
+    <div id="sidebar-main">
+        <!-- Sidebar Header -->
+        <div class="sidebar-header header-cover" style="background-image: url(/img/sidebar_header.png);">
+    <!-- Top bar -->
+    <div class="top-bar"></div>
+
+    <!-- Sidebar toggle button -->
+    <button type="button" class="sidebar-toggle mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon" style="display: initial;" data-upgraded=",MaterialButton,MaterialRipple">
+        <i class="material-icons">clear_all</i>
+        <span class="mdl-button__ripple-container">
+            <span class="mdl-ripple">
+            </span>
+        </span>
+    </button>
+
+    <!-- Sidebar Avatar -->
+    <div class="sidebar-image">
+        <img src="/img/avatar.png" alt="another's avatar">
+    </div>
+
+    <!-- Sidebar Email -->
+    <a data-toggle="dropdown" class="sidebar-brand" href="#settings-dropdown">
+        lostanother@outlook.com
+        <b class="caret"></b>
+    </a>
+</div>
+
+
+        <!-- Sidebar Navigation  -->
+        <ul class="nav sidebar-nav">
+    <!-- User dropdown  -->
+    <li class="dropdown">
+        <ul id="settings-dropdown" class="dropdown-menu">
+            
+                <li>
+                    <a href="mailto:lostanother@outlook.com" target="_blank" title="Email Me">
+                        
+                            <i class="material-icons sidebar-material-icons sidebar-indent-left1pc-element">email</i>
+                        
+                        Email Me
+                    </a>
+                </li>
+            
+        </ul>
+    </li>
+
+    <!-- Homepage -->
+    
+        <li id="sidebar-first-li">
+            <a href="/">
+                
+                    <i class="material-icons sidebar-material-icons">home</i>
+                
+                主页
+            </a>
+        </li>
+        
+    
+
+    <!-- Archives  -->
+    
+        <li class="dropdown">
+            <a href="#" class="ripple-effect dropdown-toggle" data-toggle="dropdown">
+                
+                    <i class="material-icons sidebar-material-icons">inbox</i>
+                
+                    归档
+                <b class="caret"></b>
+            </a>
+            <ul class="dropdown-menu">
+            <li>
+                <a class="sidebar_archives-link" href="/archives/2018/04/">四月 2018<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/archives/2017/07/">七月 2017<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/archives/2016/05/">五月 2016<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/archives/2016/03/">三月 2016<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/archives/2016/01/">一月 2016<span class="sidebar_archives-count">3</span></a></li><li><a class="sidebar_archives-link" href="/archives/2015/12/">十二月 2015<span class="sidebar_archives-count">4</span></a></li><li><a class="sidebar_archives-link" href="/archives/2015/11/">十一月 2015<span class="sidebar_archives-count">2</span></a></li><li><a class="sidebar_archives-link" href="/archives/2015/09/">九月 2015<span class="sidebar_archives-count">2</span></a></li><li><a class="sidebar_archives-link" href="/archives/2015/08/">八月 2015<span class="sidebar_archives-count">3</span></a></li><li><a class="sidebar_archives-link" href="/archives/2013/01/">一月 2013<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/archives/2012/10/">十月 2012<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/archives/2012/09/">九月 2012<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/archives/2012/08/">八月 2012<span class="sidebar_archives-count">8</span></a>
+            </ul>
+        </li>
+        
+    
+
+    <!-- Categories  -->
+    
+        <li class="dropdown">
+            <a href="#" class="ripple-effect dropdown-toggle" data-toggle="dropdown">
+                
+                    <i class="material-icons sidebar-material-icons">chrome_reader_mode</i>
+                
+                分类
+                <b class="caret"></b>
+            </a>
+            <ul class="dropdown-menu">
+                <li>
+                <a class="sidebar_archives-link" href="/categories/essay/">有病呻吟<span class="sidebar_archives-count">27</span></a></li><li><a class="sidebar_archives-link" href="/categories/hard-software/">软硬兼施<span class="sidebar_archives-count">2</span></a>
+            </ul>
+        </li>
+        
+    
+
+    <!-- Pages  -->
+    
+        <li>
+            <a href="/tags" title="标签云">
+                
+                    <i class="material-icons sidebar-material-icons">bookmark</i>
+                
+                标签云
+            </a>
+        </li>
+        
+    
+        <li>
+            <a href="/about" title="关于">
+                
+                    <i class="material-icons sidebar-material-icons">person</i>
+                
+                关于
+            </a>
+        </li>
+        
+    
+
+    <!-- Article Number  -->
+    
+        <li>
+            <a href="/archives">
+                文章总数
+                <span class="sidebar-badge">29</span>
+            </a>
+        </li>
+        
+    
+</ul>
+
+
+        <!-- Sidebar Footer -->
+        <!--
+I'm glad you use this theme, the development is no so easy, I hope you can keep the copyright, I will thank you so much.
+If you still want to delete the copyrights, could you still retain the first one? Which namely "Theme Material"
+It will not impact the appearance and can give developers a lot of support :)
+
+很高兴您使用并喜欢该主题，开发不易 十分谢谢与希望您可以保留一下版权声明。
+如果您仍然想删除的话 能否只保留第一项呢？即 "Theme Material"
+它不会影响美观并可以给开发者很大的支持和动力。 :)
+-->
+
+<!-- Sidebar Divider -->
+
+
+<!-- Theme Material -->
+
+    <a href="https://github.com/viosey/hexo-theme-material"  class="sidebar-footer-text-a" target="_blank">
+        <div class="sidebar-text mdl-button mdl-js-button mdl-js-ripple-effect sidebar-footer-text-div" data-upgraded=",MaterialButton,MaterialRipple">
+            主题 - Material
+            <span class="sidebar-badge badge-circle">i</span>
+        </div>
+    </a>
+
+
+<!-- Help & Support -->
+<!--
+
+-->
+
+<!-- Feedback -->
+<!--
+
+-->
+
+<!-- About Theme -->
+<!--
+
+-->
+
+    </div>
+
+    <!-- Sidebar Image -->
+    
+
+</aside>
+
+                    
+
+                    
+                        <!-- Footer Top Button -->
+                        <div id="back-to-top" class="toTop-wrap">
+    <a href="#top" class="toTop">
+        <i class="material-icons footer_top-i">expand_less</i>
+    </a>
+</div>
+
+                    
+
+                    <!--Footer-->
+<footer class="mdl-mini-footer" id="bottom">
+    
+        <!-- Paradox Footer Left Section -->
+        <div class="mdl-mini-footer--left-section sns-list">
+    <!-- Twitter -->
+    
+        <a href="https://twitter.com/1ostanother" target="_blank">
+            <button class="mdl-mini-footer--social-btn social-btn footer-sns-twitter">
+                <span class="visuallyhidden">Twitter</span>
+            </button><!--
+     --></a>
+    
+
+    <!-- Facebook -->
+    
+
+    <!-- Google + -->
+    
+
+    <!-- Weibo -->
+    
+        <a href="http://weibo.com/u/2165576304?refer_flag=1005055013_" target="_blank">
+            <button class="mdl-mini-footer--social-btn social-btn footer-sns-weibo">
+                <span class="visuallyhidden">Weibo</span>
+            </button><!--
+     --></a>
+    
+
+    <!-- Instagram -->
+    
+
+    <!-- Tumblr -->
+    
+
+    <!-- Github -->
+    
+        <a href="https://github.com/lostanother" target="_blank">
+            <button class="mdl-mini-footer--social-btn social-btn footer-sns-github">
+                <span class="visuallyhidden">Github</span>
+            </button><!--
+     --></a>
+    
+
+    <!-- LinkedIn -->
+    
+
+    <!-- Zhihu -->
+    
+
+    <!-- Bilibili -->
+    
+        <a href="https://space.bilibili.com/1386374/" target="_blank">
+            <button class="mdl-mini-footer--social-btn social-btn footer-sns-bilibili">
+                <span class="visuallyhidden">Bilibili</span>
+            </button><!--
+     --></a>
+    
+
+    <!-- Telegram -->
+    
+        <a href="https://t.me/lostanother" target="_blank">
+            <button class="mdl-mini-footer--social-btn social-btn footer-sns-telegram">
+                <span class="visuallyhidden">Telegram</span>
+            </button><!--
+     --></a>
+    
+
+    <!-- V2EX -->
+    
+
+    <!-- Segmentfault -->
+    
+</div>
+
+
+        <!--Copyright-->
+        <div id="copyright">
+            Copyright&nbsp;©&nbsp;<span year></span>&nbsp;未来哲♂学研究所
+            
+        </div>
+
+        <!-- Paradox Footer Right Section -->
+
+        <!--
+        I am glad you use this theme, the development is no so easy, I hope you can keep the copyright.
+        It will not impact the appearance and can give developers a lot of support :)
+
+        很高兴您使用该主题，开发不易，希望您可以保留一下版权声明。
+        它不会影响美观并可以给开发者很大的支持。 :)
+        -->
+
+        <div class="mdl-mini-footer--right-section">
+            <div>
+                <div class="footer-develop-div">Powered by <a href="https://hexo.io" target="_blank" class="footer-develop-a">Hexo</a></div>
+                <div class="footer-develop-div">Theme - <a href="https://github.com/viosey/hexo-theme-material" target="_blank" class="footer-develop-a">Material</a></div>
+            </div>
+        </div>
+    
+</footer>
+
+
+                    <!-- Import JS File -->
+
+    <script>lsloader.load("lazyload_js","/js/lazyload.min.js?1BcfzuNXqV+ntF6gq+5X3Q==", true)</script>
+
+
+
+    <script>lsloader.load("js_js","/js/js.min.js?V/53wGualMuiPM3xoetD5Q==", true)</script>
+
+
+
+    <script>lsloader.load("np_js","/js/nprogress.js?pl3Qhb9lvqR1FlyLUna1Yw==", true)</script>
+
+
+<script type="text/ls-javascript" id="NProgress-script">
+    NProgress.configure({
+        showSpinner: true
+    });
+    NProgress.start();
+    $('#nprogress .bar').css({
+        'background': '#29d'
+    });
+    $('#nprogress .peg').css({
+        'box-shadow': '0 0 10px #29d, 0 0 15px #29d'
+    });
+    $('#nprogress .spinner-icon').css({
+        'border-top-color': '#29d',
+        'border-left-color': '#29d'
+    });
+    setTimeout(function() {
+        NProgress.done();
+        $('.fade').removeClass('out');
+    }, 800);
+</script>
+
+
+
+    
+        <script>lsloader.load("sm_js","/js/smoothscroll.js?lOy/ACj5suSNi7ZVFVbpFQ==", true)</script>
+    
+
+
+
+
+
+
+
+   <!-- 使用 DISQUS js 代码 -->
+<script id="dsq-count-scr" src="//lostanother.disqus.com/count.js" async></script>
+
+
+
+
+
+<!-- UC Browser Compatible -->
+<script>
+	var agent = navigator.userAgent.toLowerCase();
+	if(agent.indexOf('ucbrowser')>0) {
+		document.write('<link rel="stylesheet" href="/css/uc.css">');
+	   alert('由于 UC 浏览器使用极旧的内核，而本网站使用了一些新的特性。\n为了您能更好的浏览，推荐使用 Chrome 或 Firefox 浏览器。');
+	}
+</script>
+
+<!-- Import prettify js  -->
+
+
+    
+        <script>lsloader.load("hanabi","/js/hanabi-browser-bundle.js?Pki5+pzkluqu53g+ouMWpA==", true)</script>
+    
+
+
+<!-- Window Load -->
+<!-- add class for prettify -->
+<script type="text/ls-javascript" id="window-load">
+    $(window).on('load', function() {
+        // Post_Toc parent position fixed
+        $('.post-toc-wrap').parent('.mdl-menu__container').css('position', 'fixed');
+    });
+
+    
+    
+        
+        
+        HanabiBrowser.start('pre code',true);
+    
+</script>
+
+<!-- MathJax Load-->
+
+
+<!-- Bing Background -->
+
+
+<script type="text/ls-javascript" id="lazy-load">
+    // Offer LazyLoad
+    queue.offer(function(){
+        $('.lazy').lazyload({
+            effect : 'show'
+        });
+    });
+
+    // Start Queue
+    $(document).ready(function(){
+        setInterval(function(){
+            queue.execNext();
+        },200);
+    });
+</script>
+
+<!-- Custom Footer -->
+
+
+
+<script>
+    var copyrightNow = new Date().getFullYear();
+    var textContent = document.querySelector('span[year]')
+
+    copyrightSince = 2017;
+    if (copyrightSince === copyrightNow||copyrightSince === 0000) {
+        textContent.textContent = copyrightNow
+    } else {
+        textContent.textContent = copyrightSince + ' - ' + copyrightNow
+    }
+
+    (function(){
+        var scriptList = document.querySelectorAll('script[type="text/ls-javascript"]')
+
+        for (var i = 0; i < scriptList.length; ++i) {
+            var item = scriptList[i];
+            lsloader.runInlineScript(item.id,item.id);
+        }
+    })()
+console.log('\n %c © Material Theme | Version: 1.5.2 | https://github.com/viosey/hexo-theme-material %c \n', 'color:#455a64;background:#e0e0e0;padding:5px 0;border-top-left-radius:5px;border-bottom-left-radius:5px;', 'color:#455a64;background:#e0e0e0;padding:5px 0;border-top-right-radius:5px;border-bottom-right-radius:5px;');
+</script>
+
+                </main>
+            </div>
+        </body>
+    
+</html>

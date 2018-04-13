@@ -1,0 +1,1108 @@
+<!DOCTYPE html>
+<html style="display: none;" lang="zh">
+    <head>
+    <meta charset="utf-8">
+    <!--
+        © Material Theme
+        https://github.com/viosey/hexo-theme-material
+        Version: 1.5.2 -->
+    <script>
+        window.materialVersion = "1.5.2"
+        // Delete localstorage with these tags
+        window.oldVersion = [
+            'codestartv1',
+            '1.3.4',
+            '1.4.0',
+            '1.4.0b1',
+            '1.5.0'
+        ]
+    </script>
+
+    <!-- dns prefetch -->
+    <meta http-equiv="x-dns-prefetch-control" content="on">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Meta & Info -->
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+    <meta name="renderer" content="webkit">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
+    <!-- Title -->
+    
+    <title>
+        
+            VPS部署hexo博客 | 
+        
+        未来哲♂学研究所
+    </title>
+
+    <!-- Favicons -->
+    <link rel="icon shortcut" type="image/ico" href="/img/favicon.png">
+    <link rel="icon" href="/img/favicon.png">
+
+    <meta name="format-detection" content="telephone=no"/>
+    <meta name="description" itemprop="description" content="">
+    <meta name="keywords" content="null,vps,hexo,git">
+    <meta name="theme-color" content="#0097A7">
+
+    <!-- Disable Fucking Bloody Baidu Tranformation -->
+    <meta http-equiv="Cache-Control" content="no-transform" />
+    <meta http-equiv="Cache-Control" content="no-siteapp" />
+
+    <!--[if lte IE 9]>
+        <link rel="stylesheet" href="/css/ie-blocker.css">
+
+        
+            <script src="/js/ie-blocker.zhCN.js"></script>
+        
+    <![endif]-->
+
+    <!-- Import lsloader -->
+    <script>(function(){window.lsloader={jsRunSequence:[],jsnamemap:{},cssnamemap:{}};lsloader.removeLS=function(a){try{localStorage.removeItem(a)}catch(b){}};lsloader.setLS=function(a,c){try{localStorage.setItem(a,c)}catch(b){}};lsloader.getLS=function(a){var c="";try{c=localStorage.getItem(a)}catch(b){c=""}return c};versionString="/*"+(window.materialVersion||"unknownVersion")+"*/";lsloader.clean=function(){try{var b=[];for(var a=0;a<localStorage.length;a++){b.push(localStorage.key(a))}b.forEach(function(e){var f=lsloader.getLS(e);if(window.oldVersion){var d=window.oldVersion.reduce(function(g,h){return g||f.indexOf("/*"+h+"*/")!==-1},false);if(d){lsloader.removeLS(e)}}})}catch(c){}};lsloader.clean();lsloader.load=function(f,a,b,d){if(typeof b==="boolean"){d=b;b=undefined}d=d||false;b=b||function(){};var e;e=this.getLS(f);if(e&&e.indexOf(versionString)===-1){this.removeLS(f);this.requestResource(f,a,b,d);return}if(e){var c=e.split(versionString)[0];if(c!=a){console.log("reload:"+a);this.removeLS(f);this.requestResource(f,a,b,d);return}e=e.split(versionString)[1];if(d){this.jsRunSequence.push({name:f,code:e});this.runjs(a,f,e)}else{document.getElementById(f).appendChild(document.createTextNode(e));b()}}else{this.requestResource(f,a,b,d)}};lsloader.requestResource=function(b,e,a,c){var d=this;if(c){this.iojs(e,b,function(h,f,g){d.setLS(f,h+versionString+g);d.runjs(h,f,g)})}else{this.iocss(e,b,function(f){document.getElementById(b).appendChild(document.createTextNode(f));d.setLS(b,e+versionString+f)},a)}};lsloader.iojs=function(d,b,g){var a=this;a.jsRunSequence.push({name:b,code:""});try{var f=new XMLHttpRequest();f.open("get",d,true);f.onreadystatechange=function(){if(f.readyState==4){if((f.status>=200&&f.status<300)||f.status==304){if(f.response!=""){g(d,b,f.response);return}}a.jsfallback(d,b)}};f.send(null)}catch(c){a.jsfallback(d,b)}};lsloader.iocss=function(f,c,h,a){var b=this;try{var g=new XMLHttpRequest();g.open("get",f,true);g.onreadystatechange=function(){if(g.readyState==4){if((g.status>=200&&g.status<300)||g.status==304){if(g.response!=""){h(g.response);a();return}}b.cssfallback(f,c,a)}};g.send(null)}catch(d){b.cssfallback(f,c,a)}};lsloader.iofonts=function(f,c,h,a){var b=this;try{var g=new XMLHttpRequest();g.open("get",f,true);g.onreadystatechange=function(){if(g.readyState==4){if((g.status>=200&&g.status<300)||g.status==304){if(g.response!=""){h(g.response);a();return}}b.cssfallback(f,c,a)}};g.send(null)}catch(d){b.cssfallback(f,c,a)}};lsloader.runjs=function(f,c,e){if(!!c&&!!e){for(var b in this.jsRunSequence){if(this.jsRunSequence[b].name==c){this.jsRunSequence[b].code=e}}}if(!!this.jsRunSequence[0]&&!!this.jsRunSequence[0].code&&this.jsRunSequence[0].status!="failed"){var a=document.createElement("script");a.appendChild(document.createTextNode(this.jsRunSequence[0].code));a.type="text/javascript";document.getElementsByTagName("head")[0].appendChild(a);this.jsRunSequence.shift();if(this.jsRunSequence.length>0){this.runjs()}}else{if(!!this.jsRunSequence[0]&&this.jsRunSequence[0].status=="failed"){var d=this;var a=document.createElement("script");a.src=this.jsRunSequence[0].path;a.type="text/javascript";this.jsRunSequence[0].status="loading";a.onload=function(){d.jsRunSequence.shift();if(d.jsRunSequence.length>0){d.runjs()}};document.body.appendChild(a)}}};lsloader.tagLoad=function(b,a){this.jsRunSequence.push({name:a,code:"",path:b,status:"failed"});this.runjs()};lsloader.jsfallback=function(c,b){if(!!this.jsnamemap[b]){return}else{this.jsnamemap[b]=b}for(var a in this.jsRunSequence){if(this.jsRunSequence[a].name==b){this.jsRunSequence[a].code="";this.jsRunSequence[a].status="failed";this.jsRunSequence[a].path=c}}this.runjs()};lsloader.cssfallback=function(e,c,b){if(!!this.cssnamemap[c]){return}else{this.cssnamemap[c]=1}var d=document.createElement("link");d.type="text/css";d.href=e;d.rel="stylesheet";d.onload=d.onerror=b;var a=document.getElementsByTagName("script")[0];a.parentNode.insertBefore(d,a)};lsloader.runInlineScript=function(c,b){var a=document.getElementById(b).innerText;this.jsRunSequence.push({name:c,code:a});this.runjs()}})();</script>
+
+    <!-- Import queue -->
+    <script>function Queue(){this.dataStore=[];this.offer=b;this.poll=d;this.execNext=a;this.debug=false;this.startDebug=c;function b(e){if(this.debug){console.log("Offered a Queued Function.")}if(typeof e==="function"){this.dataStore.push(e)}else{console.log("You must offer a function.")}}function d(){if(this.debug){console.log("Polled a Queued Function.")}return this.dataStore.shift()}function a(){var e=this.poll();if(e!==undefined){if(this.debug){console.log("Run a Queued Function.")}e()}}function c(){this.debug=true}}var queue=new Queue();</script>
+
+    <!-- Import CSS -->
+    
+        <style id="material_css"></style><script>if(typeof window.lsLoadCSSMaxNums === "undefined")window.lsLoadCSSMaxNums = 0;window.lsLoadCSSMaxNums++;lsloader.load("material_css","/css/material.min.css?Z7a72R1E4SxzBKR/WGctOA==",function(){if(typeof window.lsLoadCSSNums === "undefined")window.lsLoadCSSNums = 0;window.lsLoadCSSNums++;if(window.lsLoadCSSNums == window.lsLoadCSSMaxNums)document.documentElement.style.display="";}, false)</script>
+        <style id="style_css"></style><script>if(typeof window.lsLoadCSSMaxNums === "undefined")window.lsLoadCSSMaxNums = 0;window.lsLoadCSSMaxNums++;lsloader.load("style_css","/css/style.min.css?NKhlKQkXw/c66TR5p4wO+w==",function(){if(typeof window.lsLoadCSSNums === "undefined")window.lsLoadCSSNums = 0;window.lsLoadCSSNums++;if(window.lsLoadCSSNums == window.lsLoadCSSMaxNums)document.documentElement.style.display="";}, false)</script>
+
+        
+
+    
+
+    
+
+    <!-- Config CSS -->
+
+<!-- Other Styles -->
+<style>
+  body, html {
+    font-family: Roboto, "Helvetica Neue", Helvetica, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "微软雅黑", Arial, sans-serif;
+    overflow-x: hidden !important;
+  }
+  
+  code {
+    font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+  }
+
+  a {
+    color: #00838F;
+  }
+
+  .mdl-card__media,
+  #search-label,
+  #search-form-label:after,
+  #scheme-Paradox .hot_tags-count,
+  #scheme-Paradox .sidebar_archives-count,
+  #scheme-Paradox .sidebar-colored .sidebar-header,
+  #scheme-Paradox .sidebar-colored .sidebar-badge{
+    background-color: #0097A7 !important;
+  }
+
+  /* Sidebar User Drop Down Menu Text Color */
+  #scheme-Paradox .sidebar-colored .sidebar-nav>.dropdown>.dropdown-menu>li>a:hover,
+  #scheme-Paradox .sidebar-colored .sidebar-nav>.dropdown>.dropdown-menu>li>a:focus {
+    color: #0097A7 !important;
+  }
+
+  #post_entry-right-info,
+  .sidebar-colored .sidebar-nav li:hover > a,
+  .sidebar-colored .sidebar-nav li:hover > a i,
+  .sidebar-colored .sidebar-nav li > a:hover,
+  .sidebar-colored .sidebar-nav li > a:hover i,
+  .sidebar-colored .sidebar-nav li > a:focus i,
+  .sidebar-colored .sidebar-nav > .open > a,
+  .sidebar-colored .sidebar-nav > .open > a:hover,
+  .sidebar-colored .sidebar-nav > .open > a:focus,
+  #ds-reset #ds-ctx .ds-ctx-entry .ds-ctx-head a {
+    color: #0097A7 !important;
+  }
+
+  .toTop {
+    background: #757575 !important;
+  }
+
+  .material-layout .material-post>.material-nav,
+  .material-layout .material-index>.material-nav,
+  .material-nav a {
+    color: #757575;
+  }
+
+  #scheme-Paradox .MD-burger-layer {
+    background-color: #757575;
+  }
+
+  #scheme-Paradox #post-toc-trigger-btn {
+    color: #757575;
+  }
+
+  .post-toc a:hover {
+    color: #00838F;
+    text-decoration: underline;
+  }
+
+</style>
+
+
+<!-- Theme Background Related-->
+
+    <style>
+      body{
+        background-image: url(/img/bg.png);
+      }
+    </style>
+
+
+
+
+<!-- Fade Effect -->
+
+    <style>
+      .fade {
+        transition: all 800ms linear;
+        -webkit-transform: translate3d(0,0,0);
+        -moz-transform: translate3d(0,0,0);
+        -ms-transform: translate3d(0,0,0);
+        -o-transform: translate3d(0,0,0);
+        transform: translate3d(0,0,0);
+        opacity: 1;
+      }
+
+      .fade.out{
+        opacity: 0;
+      }
+    </style>
+
+
+<!-- Import Font -->
+<!-- Import Roboto -->
+
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500" rel="stylesheet">
+
+
+<!-- Import Material Icons -->
+
+
+    <style id="material_icons"></style><script>if(typeof window.lsLoadCSSMaxNums === "undefined")window.lsLoadCSSMaxNums = 0;window.lsLoadCSSMaxNums++;lsloader.load("material_icons","/css/material-icons.css?pqhB/Rd/ab0H2+kZp0RDmw==",function(){if(typeof window.lsLoadCSSNums === "undefined")window.lsLoadCSSNums = 0;window.lsLoadCSSNums++;if(window.lsLoadCSSNums == window.lsLoadCSSMaxNums)document.documentElement.style.display="";}, false)</script>
+
+
+
+
+    <!-- Import jQuery -->
+    
+        <script>lsloader.load("jq_js","/js/jquery.min.js?qcusAULNeBksqffqUM2+Ig==", true)</script>
+    
+
+    <!-- WebAPP Icons -->
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="application-name" content="未来哲♂学研究所">
+    <meta name="msapplication-starturl" content="blog.lostanother.fun/2017/07/19/notes-on-hexo-building/">
+    <meta name="msapplication-navbutton-color" content="#0097A7">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-title" content="未来哲♂学研究所">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon" href="/img/favicon.png">
+
+    <!-- Site Verification -->
+    
+    
+
+    <!-- RSS -->
+    
+
+    <!-- The Open Graph protocol -->
+    <meta property="og:url" content="blog.lostanother.fun/2017/07/19/notes-on-hexo-building/">
+    <meta property="og:type" content="blog">
+    <meta property="og:title" content="VPS部署hexo博客 | 未来哲♂学研究所">
+    <meta property="og:image" content="/img/favicon.png">
+    <meta property="og:description" content="">
+    <meta property="og:article:tag" content="vps"> <meta property="og:article:tag" content="hexo"> <meta property="og:article:tag" content="git"> 
+
+    
+        <meta property="article:published_time" content="Wed Jul 19 2017 10:06:32 GMT+0800">
+        <meta property="article:modified_time" content="Fri Apr 13 2018 10:24:01 GMT+0800">
+    
+
+    <!-- The Twitter Card protocol -->
+    <meta name="twitter:card" content="summary_large_image">
+
+    <!-- Add canonical link for SEO -->
+    
+        <link rel="canonical" href="blog.lostanother.fun/2017/07/19/notes-on-hexo-building/index.html" />
+    
+
+    <!-- Structured-data for SEO -->
+    
+        
+
+
+<script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "BlogPosting",
+    "mainEntityOfPage": "blog.lostanother.fun/2017/07/19/notes-on-hexo-building/index.html",
+    "headline": "VPS部署hexo博客",
+    "datePublished": "Wed Jul 19 2017 10:06:32 GMT+0800",
+    "dateModified": "Fri Apr 13 2018 10:24:01 GMT+0800",
+    "author": {
+        "@type": "Person",
+        "name": "another",
+        "image": {
+            "@type": "ImageObject",
+            "url": "/img/avatar.png"
+        },
+        "description": "错误的世界里没有正确的生活"
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "未来哲♂学研究所",
+        "logo": {
+            "@type":"ImageObject",
+            "url": "/img/favicon.png"
+        }
+    },
+    "keywords": ",vps,hexo,gitnull",
+    "description": "",
+}
+</script>
+
+
+    
+
+    <!-- Analytics -->
+    
+        <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+    ga('create', 'UA-102819855-1', 'auto');ga('send', 'pageview');
+</script>
+    
+    
+    
+
+    <!-- Custom Head -->
+    
+
+</head>
+
+
+    
+        <body id="scheme-Paradox" class="lazy">
+            <div class="material-layout  mdl-js-layout has-drawer is-upgraded">
+                
+
+                <!-- Main Container -->
+                <main class="material-layout__content" id="main">
+
+                    <!-- Top Anchor -->
+                    <div id="top"></div>
+
+                    
+                        <!-- Hamburger Button -->
+                        <button class="MD-burger-icon sidebar-toggle">
+                            <span class="MD-burger-layer"></span>
+                        </button>
+                    
+
+                    <!-- Post TOC -->
+
+    
+    <!-- Back Button -->
+    <!--
+    <div class="material-back" id="backhome-div" tabindex="0">
+        <a class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon"
+           href="#" onclick="window.history.back();return false;"
+           target="_self"
+           role="button"
+           data-upgraded=",MaterialButton,MaterialRipple">
+            <i class="material-icons" role="presentation">arrow_back</i>
+            <span class="mdl-button__ripple-container">
+                <span class="mdl-ripple"></span>
+            </span>
+        </a>
+    </div>
+    -->
+
+
+    <!-- Left aligned menu below button -->
+    
+    
+    <button id="post-toc-trigger-btn"
+        class="mdl-button mdl-js-button mdl-button--icon">
+        <i class="material-icons">format_list_numbered</i>
+    </button>
+
+    <ul class="post-toc-wrap mdl-menu mdl-menu--bottom-left mdl-js-menu mdl-js-ripple-effect" for="post-toc-trigger-btn" style="max-height:80vh; overflow-y:scroll;">
+        <ol class="post-toc"><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#DNS服务器的替换"><span class="post-toc-number">1.</span> <span class="post-toc-text">DNS服务器的替换</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#用acme-tiny申请ssl证书"><span class="post-toc-number">2.</span> <span class="post-toc-text">用acme-tiny申请ssl证书</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#使用Git-Hook自动部署Hexo到VPS"><span class="post-toc-number">3.</span> <span class="post-toc-text">使用Git Hook自动部署Hexo到VPS</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#Hexo的markdown渲染"><span class="post-toc-number">4.</span> <span class="post-toc-text">Hexo的markdown渲染</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#update-2017-7-20"><span class="post-toc-number">5.</span> <span class="post-toc-text">update 2017/7/20</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#报错“Cannot-find-module-‘C-Program-Files-Git-node-modules-hexo-cli-bin-hexo”解决办法"><span class="post-toc-number">5.1.</span> <span class="post-toc-text">报错“Cannot find module ‘C:\Program Files\Git\node_modules\hexo-cli\bin\hexo”解决办法</span></a></li></ol></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#update-2018-4-9"><span class="post-toc-number">6.</span> <span class="post-toc-text">update 2018/4/9</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#解决报错”ERROR-Plugin-load-failed-hexo-tag-asset-res”"><span class="post-toc-number">6.1.</span> <span class="post-toc-text">解决报错”ERROR Plugin load failed: hexo-tag-asset-res”</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#解决报错”-DEP0061-DeprecationWarning-fs-SyncWriteStream-is-deprecated-”"><span class="post-toc-number">6.2.</span> <span class="post-toc-text">解决报错”[DEP0061] DeprecationWarning: fs.SyncWriteStream is deprecated.”</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#新建博文后同步打开编辑器"><span class="post-toc-number">6.3.</span> <span class="post-toc-text">新建博文后同步打开编辑器</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#参考资料："><span class="post-toc-number">6.4.</span> <span class="post-toc-text">参考资料：</span></a></li></ol></li></ol>
+    </ul>
+    
+
+
+
+
+<!-- Layouts -->
+
+    <!-- Post Module -->
+    <div class="material-post_container">
+
+        <div class="material-post mdl-grid">
+            <div class="mdl-card mdl-shadow--4dp mdl-cell mdl-cell--12-col">
+
+                <!-- Post Header(Thumbnail & Title) -->
+                
+    <!-- Paradox Post Header -->
+    
+        
+            <!-- Random Thumbnail -->
+            <div class="post_thumbnail-random mdl-card__media mdl-color-text--grey-50">
+            <script type="text/ls-javascript" id="post-thumbnail-script">
+    var randomNum = Math.floor(Math.random() * 19 + 1);
+
+    $('.post_thumbnail-random').attr('data-original', '/img/random/material-' + randomNum + '.png');
+    $('.post_thumbnail-random').addClass('lazy');
+</script>
+
+        
+    
+            <p class="article-headline-p">
+                VPS部署hexo博客
+            </p>
+        </div>
+
+
+
+
+
+                
+                    <!-- Paradox Post Info -->
+                    <div class="mdl-color-text--grey-700 mdl-card__supporting-text meta">
+
+    <!-- Author Avatar -->
+    <div id="author-avatar">
+        <img src="/img/avatar.png" width="44px" height="44px" alt="Author Avatar"/>
+    </div>
+    <!-- Author Name & Date -->
+    <div>
+        <strong>another</strong>
+        <span>7月 19, 2017</span>
+    </div>
+
+    <div class="section-spacer"></div>
+
+    <!-- Favorite -->
+    <!--
+        <button id="article-functions-like-button" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon btn-like">
+            <i class="material-icons" role="presentation">favorite</i>
+            <span class="visuallyhidden">favorites</span>
+        </button>
+    -->
+
+    <!-- Qrcode -->
+    
+
+    <!-- Tags (bookmark) -->
+    
+    <button id="article-functions-viewtags-button" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon">
+        <i class="material-icons" role="presentation">bookmark</i>
+        <span class="visuallyhidden">bookmark</span>
+    </button>
+    <ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="article-functions-viewtags-button">
+        <li class="mdl-menu__item">
+        <a class="post_tag-link" href="/tags/git/">git</a></li><li class="mdl-menu__item"><a class="post_tag-link" href="/tags/hexo/">hexo</a></li><li class="mdl-menu__item"><a class="post_tag-link" href="/tags/vps/">vps</a>
+    </ul>
+    
+
+    <!-- Share -->
+    
+        <button id="article-fuctions-share-button" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon">
+    <i class="material-icons" role="presentation">share</i>
+    <span class="visuallyhidden">share</span>
+</button>
+<ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="article-fuctions-share-button">
+    
+
+    
+
+    <!-- Share Weibo -->
+    
+        <a class="post_share-link" href="http://service.weibo.com/share/share.php?appkey=&title=VPS部署hexo博客&url=blog.lostanother.fun/2017/07/19/notes-on-hexo-building/index.html&pic=blog.lostanother.fun/img/favicon.png&searchPic=false&style=simple" target="_blank">
+            <li class="mdl-menu__item">
+                分享到微博
+            </li>
+        </a>
+    
+
+    <!-- Share Twitter -->
+    
+        <a class="post_share-link" href="https://twitter.com/intent/tweet?text=VPS部署hexo博客&url=blog.lostanother.fun/2017/07/19/notes-on-hexo-building/index.html&via=another" target="_blank">
+            <li class="mdl-menu__item">
+                分享到 Twitter
+            </li>
+        </a>
+    
+
+    <!-- Share Facebook -->
+    
+
+    <!-- Share Google+ -->
+    
+
+    <!-- Share LinkedIn -->
+    
+
+    <!-- Share QQ -->
+    
+
+    <!-- Share Telegram -->
+    
+</ul>
+
+    
+</div>
+
+                
+
+                <!-- Post Content -->
+                <div id="post-content" class="mdl-color-text--grey-700 mdl-card__supporting-text fade out">
+    
+        <p>一年多前跟着A岛一名热心的肥宅买了现在这个VPS之后，每个月500G的流量都最多用掉2G而已，这个月偶然听说openvz虚拟技术能用谷人希的新加速技术bbr。用上后网速好很多，于是不光网页浏览，bt、pt下载点对点连接全走代理。然而这样也才用到40多G而已。</p>
+<img src="/2017/07/19/notes-on-hexo-building/bandwidth.png" alt="This is an example image" title="This is an example image">
+<p>或许是天意，不知怎么的打起了建个博客的想法。</p>
+<p>因为是256M的小内存机，在网上搜集相关信息后很自然就把目光锁定在轻量级的博客Hexo上。</p>
+<p>主要参考的教程为博主<strong>Sun Rongyang</strong>这篇<a href="https://thoroughyoung.info/2017/05/26/hexo-build-blog-complete-guide/" title="https://thoroughyoung.info/2017/05/26/hexo-build-blog-complete-guide/" target="_blank" rel="external">Hexo 个人博客搭建完全教程</a>，包含了从vps和域名的购买到hexo站点的具体配置一条龙说明，非常适合我这种没什么基础的人理清思路。原文已经说明的就不再赘述，主要记下在这个过程中遇到的几个问题和解决方法。</p>
+<h2 id="DNS服务器的替换"><a href="#DNS服务器的替换" class="headerlink" title="DNS服务器的替换"></a>DNS服务器的替换</h2><p>原教程中，sun选择的是godaddy的付费域名。我感觉没有那个花费的必要，就选择在freenom上申请免费域名。然而问题在于freenom的域名解析服务非常之坑爹，在控制面板上配置了填好服务器ip之后，过了24h+该域名也没正确解析到我的服务器，因此两天后，我决定把域名解析托管到godaddy。</p>
+<p>先是注册、登陆账号，然后在选择菜单中的DNS-添加DNS主机</p>
+<img src="/2017/07/19/notes-on-hexo-building/DNS-host-add.png" alt="This is an example image" title="This is an example image">
+<p>在其中填入你在freenom注册到的域名</p>
+<img src="/2017/07/19/notes-on-hexo-building/address-add.png" alt="填入域名" title="填入域名">
+<p>然后再按照提示，回freenom用godaddy的DNS解析服务器替换原来的服务器地址</p>
+<p>我转移后不到一个小时就能正确解析了。两个网站都有中文界面，整个过程不难。</p>
+<h2 id="用acme-tiny申请ssl证书"><a href="#用acme-tiny申请ssl证书" class="headerlink" title="用acme-tiny申请ssl证书"></a>用acme-tiny申请ssl证书</h2><p>原教程中使用Let<code>s Encrypt来给网站申请https证书，然而实际操作中却提示内存不足，草草谷歌一下发现let</code>s encrypt官方工具还是挺吃内存的，不足240M空闲内存就无法使用。于是我只好另请高明了。机缘巧合下搜到了这篇<a href="https://foofish.net/https-free-for-lets-encrypt.html" title="https://foofish.net/https-free-for-lets-encrypt.html" target="_blank" rel="external">免费HTTPS证书Let`s Encrypt安装教程</a>。跟着申请并配置好了https证书。其中遇到的两个问题值得记下：</p>
+<p>1.在教程第二步使用域名私钥创建CSR文件时，作者说</p>
+<blockquote>
+<p>执行这一步时，需要指定 openssl.cnf 文件，一般这个文件在你的 openssl 安装目录底下。</p>
+</blockquote>
+<p>然而并非如此，我甚至下载各个版本的openssl重新安装都没能在ssl目录下找到openssl.cnf。所幸，经过一番艰苦的搜索，看到<a href="http://www.cnblogs.com/f-ck-need-u/p/6091027.html" title="http://www.cnblogs.com/f-ck-need-u/p/6091027.html" target="_blank" rel="external">OpenSSL主配置文件openssl.cnf</a>，其中说到openssl.cnf的正确路径是“/etc/pki/tls/openssl.cnf”</p>
+<p>2.在第五步修改Nginx配置文件时，作者在nginx.conf中添加的语句相比于sun教程中最大的不同在于多了一行</p>
+<p><code>ssl on；</code></p>
+<p>事实证明，添加了这一行语句后，如果按照sun教程中的方法，添加</p>
+<pre><code>if ($scheme != https) {
+    rewrite ^/(.*) https://$server_name/$1 permanent;
+</code></pre><p>实现http向https跳转的话会出现400错误而跳转失败。删去<code>ssl on;</code>就没问题了。 </p>
+<p>最后网站挂小绿锁成功，不过可惜这种方法申请的https证书在<a href="https://www.ssllabs.com" target="_blank" rel="external">https://www.ssllabs.com</a>的安全性评级中只有rank B，理由是</p>
+<blockquote>
+<p>This server`s certificate chain is incomplete</p>
+</blockquote>
+<p>谷歌得知原因是我们申请到的证书中没有包含中间签署者的凭证。什么意思我也不知道。详见<a href="https://www.peterdavehello.org/2015/10/build-an-a-plus-best-practice-https-web-server-via-nginx-chinese-version/" title="https://www.peterdavehello.org/2015/10/build-an-a-plus-best-practice-https-web-server-via-nginx-chinese-version/" target="_blank" rel="external">用 nginx 建置一個 A+ 等級的 https 網頁伺服器</a>中“Certificate(Authentication)的部分”小节</p>
+<h2 id="使用Git-Hook自动部署Hexo到VPS"><a href="#使用Git-Hook自动部署Hexo到VPS" class="headerlink" title="使用Git Hook自动部署Hexo到VPS"></a>使用Git Hook自动部署Hexo到VPS</h2><p>sun同学的教程中虽然有介绍利用git hook更新vps的博客，但是deploy的配置并没有介绍非默认ssh端口时应当如何配置，且没有密钥自动登入vps更新的介绍，因此只好另谋生计，谷歌到这篇更为详尽的<a href="http://yanzai.me/hexo-git-deploy.html" title="http://yanzai.me/hexo-git-deploy.html" target="_blank" rel="external">Hexo的Git部署，一行命令部署到GitHub和自己的VPS</a>,并成功配置好git hook。相比sun 同学的教程。其中不同与多出的地方有：</p>
+<ul>
+<li><p>说明如何生成密钥从而实现本地免密ssh登陆VPS。<strong>重点</strong>注意</p>
+<blockquote>
+<p>如果出现不能登录的情况，可能是文件权限有问题，VPS 上做如下修改：</p>
+<pre><code>chmod 700 ~/.ssh
+chmod 600 ~/.ssh/authorized_keys
+</code></pre><p>在 VPS 上/home/git/下的 .ssh 目录必须要在 git 用户下创建</p>
+</blockquote>
+</li>
+<li><p>在VPS上的git仓库下配置的hook文件<code>post-receive</code>第一行比sun的教程最后多了一个<code>-l</code>，</p>
+<pre><code>#!/bin/bash -l
+</code></pre><p>若不添加我在本地生成好的静态页面虽然能上传到vps的临时文件夹<code>/temp/Hexo</code>，却无法部署到网页文件所在目录</p>
+</li>
+<li><p>由于之前为VPS的安全性考虑修改了默认的ssh端口，这就使得<code>repo</code>字段不能填入常见的<code>git@github.com:yanzai/yanzai.github.io.git</code>的格式，应改为</p>
+<pre><code>ssh://git@106.186.33.133:&lt;your-port&gt;/~/hexo.git
+</code></pre></li>
+<li><p>出于安全性考虑，应当禁用<code>git</code>用户的shell登陆权限。通过修改<code>/etc/passwd</code>文件，将其中</p>
+<pre><code>git:x:1001:1001:,,,:/home/git:/bin/bash
+</code></pre><p>  修改为</p>
+<pre><code>git:x:1001:1001:,,,:/home/git:/usr/bin/git-shell
+</code></pre><p>  详见<a href="http://www.swiftyper.com/2016/04/17/deploy-hexo-with-git-hook/" target="_blank" rel="external">使用 Git Hook 自动部署 Hexo 到个人 VPS</a></p>
+</li>
+</ul>
+<h2 id="Hexo的markdown渲染"><a href="#Hexo的markdown渲染" class="headerlink" title="Hexo的markdown渲染"></a>Hexo的markdown渲染</h2><p>在写本篇博文时遇到的问题，分级标题格式##在markdownpad2中正常渲染</p>
+<img src="/2017/07/19/notes-on-hexo-building/md-error-1.png" alt="mdp" title="mdp">
+<p>在hexo却无法识别</p>
+<img src="/2017/07/19/notes-on-hexo-building/md-error-2.png" alt="hexo" title="hexo">
+<p>谷歌后获知hexo的md语法是github标准的gfm，与原版略有差异。进一步查阅hexo的md语法发现分级标题标记后应当有个空格。添加空格后渲染正常。</p>
+<p>一名网友说得对，MD方言太多……</p>
+<h2 id="update-2017-7-20"><a href="#update-2017-7-20" class="headerlink" title="update 2017/7/20"></a>update 2017/7/20</h2><h3 id="报错“Cannot-find-module-‘C-Program-Files-Git-node-modules-hexo-cli-bin-hexo”解决办法"><a href="#报错“Cannot-find-module-‘C-Program-Files-Git-node-modules-hexo-cli-bin-hexo”解决办法" class="headerlink" title="报错“Cannot find module ‘C:\Program Files\Git\node_modules\hexo-cli\bin\hexo”解决办法"></a>报错“Cannot find module ‘C:\Program Files\Git\node_modules\hexo-cli\bin\hexo”解决办法</h3><p>今天在笔记本电脑上安装却遇到报错<code>Cannot find module ‘C:\Program Files\Git\node_modules\hexo-cli\bin\hexo</code></p>
+<img src="/2017/07/19/notes-on-hexo-building/error-in-rebuild.png" alt="报错" title="报错">
+<p>重装nodejs，重装git搞了半天都不行，在git bash中安装hexo提示成功但输入hexo相关的命令就报这些错误。在网上搜寻到的解决方法是找到这个文件夹：C:\Users\你的用户名\AppData\Roaming\npm\node_modules\hexo（也可能是hexo-cli，视你安装hexo时的命令而定），然后把这hexo下的node_modules复制到Git安装目录下就解决了。</p>
+<p>参考资料：<a href="https://helloqingfeng.github.io/2017/02/25/hexo-rebuilding/" target="_blank" rel="external">重装系统后，Hexo博客如何重新部署恢复
+</a></p>
+<h2 id="update-2018-4-9"><a href="#update-2018-4-9" class="headerlink" title="update 2018/4/9"></a>update 2018/4/9</h2><blockquote>
+<p>这个博客在去年七月份搭建好，发布了这一篇笔记后就一直吃灰，当时租的vps在今年1月过期，算是正式死亡。所幸源文件都在本地，现在为了在alpharacks的小鸡上<a href="Hide-your-v2ray-behind-a-normal-websit.md">搭建v2ray并隐藏在正常网站后面</a>，干脆拿出来擦擦灰继续用，顺手解决一些遗留问题。至于以后写不写，还是看缘分吧。</p>
+</blockquote>
+<h3 id="解决报错”ERROR-Plugin-load-failed-hexo-tag-asset-res”"><a href="#解决报错”ERROR-Plugin-load-failed-hexo-tag-asset-res”" class="headerlink" title="解决报错”ERROR Plugin load failed: hexo-tag-asset-res”"></a>解决报错”ERROR Plugin load failed: hexo-tag-asset-res”</h3><p>在重新部署好Hexo后发现，每次Generate都会有大段<code>ERROR Plugin load failed: hexo-tag-asset-res</code>开头的报错，虽然最后好像不影响静态文件的生成，但总看着这些报错总是不爽。谷歌之，在github的issues中找到了解决方法。原来这<code>hexo-tag-asset-res</code>是在hexo2中使用的插件，当时的hexo还不支持<code>asset</code>文件夹，在升级后hexo3.0中已经完成了它的历史使命应当急流勇退了，那么我们解决这个报错就只需要卸载之。在git bash中输入</p>
+<pre><code>npm uninstall hexo-tag-asset-res
+</code></pre><p>完成后，还你清爽的git bash界面</p>
+<h3 id="解决报错”-DEP0061-DeprecationWarning-fs-SyncWriteStream-is-deprecated-”"><a href="#解决报错”-DEP0061-DeprecationWarning-fs-SyncWriteStream-is-deprecated-”" class="headerlink" title="解决报错”[DEP0061] DeprecationWarning: fs.SyncWriteStream is deprecated.”"></a>解决报错”[DEP0061] DeprecationWarning: fs.SyncWriteStream is deprecated.”</h3><p>上述插件错误解决后，又遇到个似乎不影响生成静态页面的报错(囧何苦呢)<code>(node:9148) [DEP0061] DeprecationWarning: fs.SyncWriteStream is deprecated.</code>。谷歌之，发现一个强迫症博主也遇到这个问题，并顺利解决并帮助其他人也解决了这个问题（天知道为什么我还会遇到）。赞美程序员！
+根据他的说法</p>
+<blockquote>
+<p>从报错信息来看是因为fs.SyncWriteStream is deprecated，node.js从8.0开始已经弃用了fs.SyncWriteStream方法，所以是因为我们node_modules中某个插件调用了这个方法，通过查看Hexo作者GitHub对应的项目，在issue中看到有人提到这个问题，在hexo项目中其中有一个hexo-fs的插件调用了这个方法，所以需要更新hexo-fs插件，更新方法如下</p>
+<pre><code>npm install hexo-fs --save
+</code></pre></blockquote>
+<p>问题解决。</p>
+<h3 id="新建博文后同步打开编辑器"><a href="#新建博文后同步打开编辑器" class="headerlink" title="新建博文后同步打开编辑器"></a>新建博文后同步打开编辑器</h3><p>用hexo写东西很不方便的一点就是用<code>hexo n XXXX</code>新建文章后还要到<code>source/_post</code>下去找自己刚刚新建的文件。针对这个问题，Hexo的作者给出了使用脚本自动打开文件的解决办法。</p>
+<ul>
+<li>在hexo博客的根目录下创建<code>script</code>文件夹</li>
+<li>在script文件夹下创建任意名字的<code>.js</code>脚本文件</li>
+<li><p>打开文件，复制进代码</p>
+<p>  var spawn = require(<code>child_process</code>).exec;
+  // Hexo 2.x
+  hexo.on(<code>new</code>, function(path){</p>
+<pre><code>exec(`vi`, [path]);
+</code></pre><p>  });</p>
+<p>  // Hexo 3
+  hexo.on(<code>new</code>, function(data){</p>
+<pre><code>exec(`vi`, [data.path]);
+</code></pre><p>  });</p>
+</li>
+</ul>
+<p>不过很不幸的是我在电脑上失败了，看作者的编辑器是vi，大概是他的环境是linux，我等用windows的凡人继续搜索吧。而后在使用这篇<a href="https://notes.wanghao.work/2015-06-29-Hexo%E6%B7%BB%E5%8A%A0%E6%96%87%E7%AB%A0%E6%97%B6%E8%87%AA%E5%8A%A8%E6%89%93%E5%BC%80%E7%BC%96%E8%BE%91%E5%99%A8.html" target="_blank" rel="external">Hexo添加文章时自动打开编辑器</a>中的脚本</p>
+<pre><code>var spawn = require(`child_process`).exec;
+
+// Hexo 2.x 用户复制这段
+  hexo.on(`new`, function(path){
+  spawn(`start  &quot;markdown编辑器绝对路径.exe&quot; ` + path);
+});
+
+// Hexo 3 用户复制这段
+  hexo.on(`new`, function(data){
+  spawn(`start  &quot;markdown编辑器绝对路径.exe&quot; ` + data.path);
+});
+</code></pre><p>复制了绝对路径进去反而报错，随便填个“notepad++”却可以直接用关联的程序打开新建的文件了。暂时就这样吧</p>
+<h3 id="参考资料："><a href="#参考资料：" class="headerlink" title="参考资料："></a>参考资料：</h3><ol>
+<li><a href="https://github.com/hexojs/hexo/issues/1290" target="_blank" rel="external">Spurious errors? Does hexo-tag-asset-res work with 3.1.1?</a></li>
+<li><a href="http://rangerzhou.top/2017/07/27/Hexo%E5%8D%9A%E5%AE%A2%E6%B3%A8%E6%84%8F%E4%BA%8B%E9%A1%B9/" target="_blank" rel="external">Hexo博客注意事项</a></li>
+<li><a href="https://notes.wanghao.work/2015-06-29-Hexo%E6%B7%BB%E5%8A%A0%E6%96%87%E7%AB%A0%E6%97%B6%E8%87%AA%E5%8A%A8%E6%89%93%E5%BC%80%E7%BC%96%E8%BE%91%E5%99%A8.html" target="_blank" rel="external">Hexo添加文章时自动打开编辑器</a></li>
+</ol>
+
+        
+    
+
+    
+</div>
+
+
+                
+
+                <!-- Post Comments -->
+                
+                    
+    <!-- 使用 DISQUS -->
+<div id="disqus-comment">
+    <div id="disqus_thread"></div>
+<script type="text/javascript">
+    var disqus_config = function () {
+        this.page.url = 'blog.lostanother.fun/2017/07/19/notes-on-hexo-building/';  // Replace PAGE_URL with your page's canonical URL variable
+        this.page.identifier = 'blog.lostanother.fun/2017/07/19/notes-on-hexo-building/'; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+    };
+</script>
+<script type="text/ls-javascript" id="disqus-thread-script">
+    queue.offer(function() {
+            (function() { // DON'T EDIT BELOW THIS LINE
+                var d = document;
+                var s = d.createElement('script');
+                s.src = '//lostanother.disqus.com/embed.js';
+                s.setAttribute('data-timestamp', + new Date());
+                (d.head || d.body).appendChild(s);
+            })();
+        });
+</script>
+
+</div>
+<style>
+    #disqus-comment{
+        background-color: #eee;
+        padding: 2pc;
+    }
+</style>
+
+                
+            </div>
+
+            <!-- Post Prev & Next Nav -->
+            <nav class="material-nav mdl-color-text--grey-50 mdl-cell mdl-cell--12-col">
+    <!-- Prev Nav -->
+    
+        <a href="/2018/04/10/Hide-your-v2ray-behind-a-normal-websit/" id="post_nav-newer" class="prev-content">
+            <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon mdl-color--white mdl-color-text--grey-900" role="presentation">
+                <i class="material-icons">arrow_back</i>
+            </button>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            新篇
+        </a>
+    
+
+    <!-- Section Spacer -->
+    <div class="section-spacer"></div>
+
+    <!-- Next Nav -->
+    
+        <a href="/2016/05/07/2016-05-07-2016年05月07日-1/" id="post_nav-older" class="next-content">
+            旧篇
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon mdl-color--white mdl-color-text--grey-900" role="presentation">
+                <i class="material-icons">arrow_forward</i>
+            </button>
+        </a>
+    
+</nav>
+
+        </div>
+    </div>
+
+
+
+                    
+                        <!-- Overlay For Active Sidebar -->
+<div class="sidebar-overlay"></div>
+
+<!-- Material sidebar -->
+<aside id="sidebar" class="sidebar sidebar-colored sidebar-fixed-left" role="navigation">
+    <div id="sidebar-main">
+        <!-- Sidebar Header -->
+        <div class="sidebar-header header-cover" style="background-image: url(/img/sidebar_header.png);">
+    <!-- Top bar -->
+    <div class="top-bar"></div>
+
+    <!-- Sidebar toggle button -->
+    <button type="button" class="sidebar-toggle mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon" style="display: initial;" data-upgraded=",MaterialButton,MaterialRipple">
+        <i class="material-icons">clear_all</i>
+        <span class="mdl-button__ripple-container">
+            <span class="mdl-ripple">
+            </span>
+        </span>
+    </button>
+
+    <!-- Sidebar Avatar -->
+    <div class="sidebar-image">
+        <img src="/img/avatar.png" alt="another's avatar">
+    </div>
+
+    <!-- Sidebar Email -->
+    <a data-toggle="dropdown" class="sidebar-brand" href="#settings-dropdown">
+        lostanother@outlook.com
+        <b class="caret"></b>
+    </a>
+</div>
+
+
+        <!-- Sidebar Navigation  -->
+        <ul class="nav sidebar-nav">
+    <!-- User dropdown  -->
+    <li class="dropdown">
+        <ul id="settings-dropdown" class="dropdown-menu">
+            
+                <li>
+                    <a href="mailto:lostanother@outlook.com" target="_blank" title="Email Me">
+                        
+                            <i class="material-icons sidebar-material-icons sidebar-indent-left1pc-element">email</i>
+                        
+                        Email Me
+                    </a>
+                </li>
+            
+        </ul>
+    </li>
+
+    <!-- Homepage -->
+    
+        <li id="sidebar-first-li">
+            <a href="/">
+                
+                    <i class="material-icons sidebar-material-icons">home</i>
+                
+                主页
+            </a>
+        </li>
+        
+    
+
+    <!-- Archives  -->
+    
+        <li class="dropdown">
+            <a href="#" class="ripple-effect dropdown-toggle" data-toggle="dropdown">
+                
+                    <i class="material-icons sidebar-material-icons">inbox</i>
+                
+                    归档
+                <b class="caret"></b>
+            </a>
+            <ul class="dropdown-menu">
+            <li>
+                <a class="sidebar_archives-link" href="/archives/2018/04/">四月 2018<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/archives/2017/07/">七月 2017<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/archives/2016/05/">五月 2016<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/archives/2016/03/">三月 2016<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/archives/2016/01/">一月 2016<span class="sidebar_archives-count">3</span></a></li><li><a class="sidebar_archives-link" href="/archives/2015/12/">十二月 2015<span class="sidebar_archives-count">4</span></a></li><li><a class="sidebar_archives-link" href="/archives/2015/11/">十一月 2015<span class="sidebar_archives-count">2</span></a></li><li><a class="sidebar_archives-link" href="/archives/2015/09/">九月 2015<span class="sidebar_archives-count">2</span></a></li><li><a class="sidebar_archives-link" href="/archives/2015/08/">八月 2015<span class="sidebar_archives-count">3</span></a></li><li><a class="sidebar_archives-link" href="/archives/2013/01/">一月 2013<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/archives/2012/10/">十月 2012<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/archives/2012/09/">九月 2012<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/archives/2012/08/">八月 2012<span class="sidebar_archives-count">8</span></a>
+            </ul>
+        </li>
+        
+    
+
+    <!-- Categories  -->
+    
+        <li class="dropdown">
+            <a href="#" class="ripple-effect dropdown-toggle" data-toggle="dropdown">
+                
+                    <i class="material-icons sidebar-material-icons">chrome_reader_mode</i>
+                
+                分类
+                <b class="caret"></b>
+            </a>
+            <ul class="dropdown-menu">
+                <li>
+                <a class="sidebar_archives-link" href="/categories/essay/">有病呻吟<span class="sidebar_archives-count">27</span></a></li><li><a class="sidebar_archives-link" href="/categories/hard-software/">软硬兼施<span class="sidebar_archives-count">2</span></a>
+            </ul>
+        </li>
+        
+    
+
+    <!-- Pages  -->
+    
+        <li>
+            <a href="/tags" title="标签云">
+                
+                    <i class="material-icons sidebar-material-icons">bookmark</i>
+                
+                标签云
+            </a>
+        </li>
+        
+    
+        <li>
+            <a href="/about" title="关于">
+                
+                    <i class="material-icons sidebar-material-icons">person</i>
+                
+                关于
+            </a>
+        </li>
+        
+    
+
+    <!-- Article Number  -->
+    
+        <li>
+            <a href="/archives">
+                文章总数
+                <span class="sidebar-badge">29</span>
+            </a>
+        </li>
+        
+    
+</ul>
+
+
+        <!-- Sidebar Footer -->
+        <!--
+I'm glad you use this theme, the development is no so easy, I hope you can keep the copyright, I will thank you so much.
+If you still want to delete the copyrights, could you still retain the first one? Which namely "Theme Material"
+It will not impact the appearance and can give developers a lot of support :)
+
+很高兴您使用并喜欢该主题，开发不易 十分谢谢与希望您可以保留一下版权声明。
+如果您仍然想删除的话 能否只保留第一项呢？即 "Theme Material"
+它不会影响美观并可以给开发者很大的支持和动力。 :)
+-->
+
+<!-- Sidebar Divider -->
+
+
+<!-- Theme Material -->
+
+    <a href="https://github.com/viosey/hexo-theme-material"  class="sidebar-footer-text-a" target="_blank">
+        <div class="sidebar-text mdl-button mdl-js-button mdl-js-ripple-effect sidebar-footer-text-div" data-upgraded=",MaterialButton,MaterialRipple">
+            主题 - Material
+            <span class="sidebar-badge badge-circle">i</span>
+        </div>
+    </a>
+
+
+<!-- Help & Support -->
+<!--
+
+-->
+
+<!-- Feedback -->
+<!--
+
+-->
+
+<!-- About Theme -->
+<!--
+
+-->
+
+    </div>
+
+    <!-- Sidebar Image -->
+    
+
+</aside>
+
+                    
+
+                    
+                        <!-- Footer Top Button -->
+                        <div id="back-to-top" class="toTop-wrap">
+    <a href="#top" class="toTop">
+        <i class="material-icons footer_top-i">expand_less</i>
+    </a>
+</div>
+
+                    
+
+                    <!--Footer-->
+<footer class="mdl-mini-footer" id="bottom">
+    
+        <!-- Paradox Footer Left Section -->
+        <div class="mdl-mini-footer--left-section sns-list">
+    <!-- Twitter -->
+    
+        <a href="https://twitter.com/1ostanother" target="_blank">
+            <button class="mdl-mini-footer--social-btn social-btn footer-sns-twitter">
+                <span class="visuallyhidden">Twitter</span>
+            </button><!--
+     --></a>
+    
+
+    <!-- Facebook -->
+    
+
+    <!-- Google + -->
+    
+
+    <!-- Weibo -->
+    
+        <a href="http://weibo.com/u/2165576304?refer_flag=1005055013_" target="_blank">
+            <button class="mdl-mini-footer--social-btn social-btn footer-sns-weibo">
+                <span class="visuallyhidden">Weibo</span>
+            </button><!--
+     --></a>
+    
+
+    <!-- Instagram -->
+    
+
+    <!-- Tumblr -->
+    
+
+    <!-- Github -->
+    
+        <a href="https://github.com/lostanother" target="_blank">
+            <button class="mdl-mini-footer--social-btn social-btn footer-sns-github">
+                <span class="visuallyhidden">Github</span>
+            </button><!--
+     --></a>
+    
+
+    <!-- LinkedIn -->
+    
+
+    <!-- Zhihu -->
+    
+
+    <!-- Bilibili -->
+    
+        <a href="https://space.bilibili.com/1386374/" target="_blank">
+            <button class="mdl-mini-footer--social-btn social-btn footer-sns-bilibili">
+                <span class="visuallyhidden">Bilibili</span>
+            </button><!--
+     --></a>
+    
+
+    <!-- Telegram -->
+    
+        <a href="https://t.me/lostanother" target="_blank">
+            <button class="mdl-mini-footer--social-btn social-btn footer-sns-telegram">
+                <span class="visuallyhidden">Telegram</span>
+            </button><!--
+     --></a>
+    
+
+    <!-- V2EX -->
+    
+
+    <!-- Segmentfault -->
+    
+</div>
+
+
+        <!--Copyright-->
+        <div id="copyright">
+            Copyright&nbsp;©&nbsp;<span year></span>&nbsp;未来哲♂学研究所
+            
+        </div>
+
+        <!-- Paradox Footer Right Section -->
+
+        <!--
+        I am glad you use this theme, the development is no so easy, I hope you can keep the copyright.
+        It will not impact the appearance and can give developers a lot of support :)
+
+        很高兴您使用该主题，开发不易，希望您可以保留一下版权声明。
+        它不会影响美观并可以给开发者很大的支持。 :)
+        -->
+
+        <div class="mdl-mini-footer--right-section">
+            <div>
+                <div class="footer-develop-div">Powered by <a href="https://hexo.io" target="_blank" class="footer-develop-a">Hexo</a></div>
+                <div class="footer-develop-div">Theme - <a href="https://github.com/viosey/hexo-theme-material" target="_blank" class="footer-develop-a">Material</a></div>
+            </div>
+        </div>
+    
+</footer>
+
+
+                    <!-- Import JS File -->
+
+    <script>lsloader.load("lazyload_js","/js/lazyload.min.js?1BcfzuNXqV+ntF6gq+5X3Q==", true)</script>
+
+
+
+    <script>lsloader.load("js_js","/js/js.min.js?V/53wGualMuiPM3xoetD5Q==", true)</script>
+
+
+
+    <script>lsloader.load("np_js","/js/nprogress.js?pl3Qhb9lvqR1FlyLUna1Yw==", true)</script>
+
+
+<script type="text/ls-javascript" id="NProgress-script">
+    NProgress.configure({
+        showSpinner: true
+    });
+    NProgress.start();
+    $('#nprogress .bar').css({
+        'background': '#29d'
+    });
+    $('#nprogress .peg').css({
+        'box-shadow': '0 0 10px #29d, 0 0 15px #29d'
+    });
+    $('#nprogress .spinner-icon').css({
+        'border-top-color': '#29d',
+        'border-left-color': '#29d'
+    });
+    setTimeout(function() {
+        NProgress.done();
+        $('.fade').removeClass('out');
+    }, 800);
+</script>
+
+
+
+    
+        <script>lsloader.load("sm_js","/js/smoothscroll.js?lOy/ACj5suSNi7ZVFVbpFQ==", true)</script>
+    
+
+
+
+
+
+
+
+   <!-- 使用 DISQUS js 代码 -->
+<script id="dsq-count-scr" src="//lostanother.disqus.com/count.js" async></script>
+
+
+
+
+
+<!-- UC Browser Compatible -->
+<script>
+	var agent = navigator.userAgent.toLowerCase();
+	if(agent.indexOf('ucbrowser')>0) {
+		document.write('<link rel="stylesheet" href="/css/uc.css">');
+	   alert('由于 UC 浏览器使用极旧的内核，而本网站使用了一些新的特性。\n为了您能更好的浏览，推荐使用 Chrome 或 Firefox 浏览器。');
+	}
+</script>
+
+<!-- Import prettify js  -->
+
+
+    
+        <script>lsloader.load("hanabi","/js/hanabi-browser-bundle.js?Pki5+pzkluqu53g+ouMWpA==", true)</script>
+    
+
+
+<!-- Window Load -->
+<!-- add class for prettify -->
+<script type="text/ls-javascript" id="window-load">
+    $(window).on('load', function() {
+        // Post_Toc parent position fixed
+        $('.post-toc-wrap').parent('.mdl-menu__container').css('position', 'fixed');
+    });
+
+    
+    
+        
+        
+        HanabiBrowser.start('pre code',true);
+    
+</script>
+
+<!-- MathJax Load-->
+
+
+<!-- Bing Background -->
+
+
+<script type="text/ls-javascript" id="lazy-load">
+    // Offer LazyLoad
+    queue.offer(function(){
+        $('.lazy').lazyload({
+            effect : 'show'
+        });
+    });
+
+    // Start Queue
+    $(document).ready(function(){
+        setInterval(function(){
+            queue.execNext();
+        },200);
+    });
+</script>
+
+<!-- Custom Footer -->
+
+
+
+<script>
+    var copyrightNow = new Date().getFullYear();
+    var textContent = document.querySelector('span[year]')
+
+    copyrightSince = 2017;
+    if (copyrightSince === copyrightNow||copyrightSince === 0000) {
+        textContent.textContent = copyrightNow
+    } else {
+        textContent.textContent = copyrightSince + ' - ' + copyrightNow
+    }
+
+    (function(){
+        var scriptList = document.querySelectorAll('script[type="text/ls-javascript"]')
+
+        for (var i = 0; i < scriptList.length; ++i) {
+            var item = scriptList[i];
+            lsloader.runInlineScript(item.id,item.id);
+        }
+    })()
+console.log('\n %c © Material Theme | Version: 1.5.2 | https://github.com/viosey/hexo-theme-material %c \n', 'color:#455a64;background:#e0e0e0;padding:5px 0;border-top-left-radius:5px;border-bottom-left-radius:5px;', 'color:#455a64;background:#e0e0e0;padding:5px 0;border-top-right-radius:5px;border-bottom-right-radius:5px;');
+</script>
+
+                </main>
+            </div>
+        </body>
+    
+</html>
