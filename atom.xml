@@ -4,9 +4,9 @@
   
   <link href="/atom.xml" rel="self"/>
   
-  <link href="blog.lostanother.fun/"/>
+  <link href="https://blog.lostanother.fun/"/>
   <updated>2018-04-13T02:41:00.224Z</updated>
-  <id>blog.lostanother.fun/</id>
+  <id>https://blog.lostanother.fun/</id>
   
   <author>
     <name>another</name>
@@ -17,8 +17,8 @@
   
   <entry>
     <title>悄悄地翻墙，打枪的不要！——搭建配备WebSocket+TLS+CDN的v2ray服务</title>
-    <link href="blog.lostanother.fun/2018/04/10/Hide-your-v2ray-behind-a-normal-websit/"/>
-    <id>blog.lostanother.fun/2018/04/10/Hide-your-v2ray-behind-a-normal-websit/</id>
+    <link href="https://blog.lostanother.fun/2018/04/10/Hide-your-v2ray-behind-a-normal-websit/"/>
+    <id>https://blog.lostanother.fun/2018/04/10/Hide-your-v2ray-behind-a-normal-websit/</id>
     <published>2018-04-10T00:16:58.000Z</published>
     <updated>2018-04-13T02:41:00.224Z</updated>
     
@@ -150,23 +150,23 @@ RewriteRule /(.*)           http://localhost:3579/$1 [P,L]
     
     </summary>
     
-      <category term="软硬兼施" scheme="blog.lostanother.fun/categories/hard-software/"/>
+      <category term="软硬兼施" scheme="https://blog.lostanother.fun/categories/hard-software/"/>
     
     
-      <category term="翻墙" scheme="blog.lostanother.fun/tags/%E7%BF%BB%E5%A2%99/"/>
+      <category term="翻墙" scheme="https://blog.lostanother.fun/tags/%E7%BF%BB%E5%A2%99/"/>
     
-      <category term="v2ray" scheme="blog.lostanother.fun/tags/v2ray/"/>
+      <category term="v2ray" scheme="https://blog.lostanother.fun/tags/v2ray/"/>
     
-      <category term="apache2" scheme="blog.lostanother.fun/tags/apache2/"/>
+      <category term="apache2" scheme="https://blog.lostanother.fun/tags/apache2/"/>
     
-      <category term="vps" scheme="blog.lostanother.fun/tags/vps/"/>
+      <category term="vps" scheme="https://blog.lostanother.fun/tags/vps/"/>
     
   </entry>
   
   <entry>
     <title>VPS部署hexo博客</title>
-    <link href="blog.lostanother.fun/2017/07/19/notes-on-hexo-building/"/>
-    <id>blog.lostanother.fun/2017/07/19/notes-on-hexo-building/</id>
+    <link href="https://blog.lostanother.fun/2017/07/19/notes-on-hexo-building/"/>
+    <id>https://blog.lostanother.fun/2017/07/19/notes-on-hexo-building/</id>
     <published>2017-07-19T02:06:32.000Z</published>
     <updated>2018-04-13T02:24:01.636Z</updated>
     
@@ -290,21 +290,21 @@ chmod 600 ~/.ssh/authorized_keys
     
     </summary>
     
-      <category term="软硬兼施" scheme="blog.lostanother.fun/categories/hard-software/"/>
+      <category term="软硬兼施" scheme="https://blog.lostanother.fun/categories/hard-software/"/>
     
     
-      <category term="vps" scheme="blog.lostanother.fun/tags/vps/"/>
+      <category term="vps" scheme="https://blog.lostanother.fun/tags/vps/"/>
     
-      <category term="hexo" scheme="blog.lostanother.fun/tags/hexo/"/>
+      <category term="hexo" scheme="https://blog.lostanother.fun/tags/hexo/"/>
     
-      <category term="git" scheme="blog.lostanother.fun/tags/git/"/>
+      <category term="git" scheme="https://blog.lostanother.fun/tags/git/"/>
     
   </entry>
   
   <entry>
     <title>2016年05月07日</title>
-    <link href="blog.lostanother.fun/2016/05/07/2016-05-07-2016%E5%B9%B405%E6%9C%8807%E6%97%A5-1/"/>
-    <id>blog.lostanother.fun/2016/05/07/2016-05-07-2016年05月07日-1/</id>
+    <link href="https://blog.lostanother.fun/2016/05/07/2016-05-07-2016%E5%B9%B405%E6%9C%8807%E6%97%A5-1/"/>
+    <id>https://blog.lostanother.fun/2016/05/07/2016-05-07-2016年05月07日-1/</id>
     <published>2016-05-06T17:37:00.000Z</published>
     <updated>2018-04-13T02:27:13.206Z</updated>
     
@@ -323,15 +323,15 @@ chmod 600 ~/.ssh/authorized_keys
     
     </summary>
     
-      <category term="有病呻吟" scheme="blog.lostanother.fun/categories/essay/"/>
+      <category term="有病呻吟" scheme="https://blog.lostanother.fun/categories/essay/"/>
     
     
   </entry>
   
   <entry>
     <title>2016年03月31日</title>
-    <link href="blog.lostanother.fun/2016/03/31/2016-03-31-2016%E5%B9%B403%E6%9C%8831%E6%97%A5-2/"/>
-    <id>blog.lostanother.fun/2016/03/31/2016-03-31-2016年03月31日-2/</id>
+    <link href="https://blog.lostanother.fun/2016/03/31/2016-03-31-2016%E5%B9%B403%E6%9C%8831%E6%97%A5-2/"/>
+    <id>https://blog.lostanother.fun/2016/03/31/2016-03-31-2016年03月31日-2/</id>
     <published>2016-03-31T12:01:00.000Z</published>
     <updated>2018-04-13T02:27:17.289Z</updated>
     
@@ -348,15 +348,15 @@ chmod 600 ~/.ssh/authorized_keys
     
     </summary>
     
-      <category term="有病呻吟" scheme="blog.lostanother.fun/categories/essay/"/>
+      <category term="有病呻吟" scheme="https://blog.lostanother.fun/categories/essay/"/>
     
     
   </entry>
   
   <entry>
     <title>“亲历”烟花厂爆炸事件的感想</title>
-    <link href="blog.lostanother.fun/2016/01/20/2016-01-20-%E2%80%9C%E4%BA%B2%E5%8E%86%E2%80%9D%E7%83%9F%E8%8A%B1%E5%8E%82%E7%88%86%E7%82%B8%E4%BA%8B%E4%BB%B6%E7%9A%84%E6%84%9F%E6%83%B3-3/"/>
-    <id>blog.lostanother.fun/2016/01/20/2016-01-20-“亲历”烟花厂爆炸事件的感想-3/</id>
+    <link href="https://blog.lostanother.fun/2016/01/20/2016-01-20-%E2%80%9C%E4%BA%B2%E5%8E%86%E2%80%9D%E7%83%9F%E8%8A%B1%E5%8E%82%E7%88%86%E7%82%B8%E4%BA%8B%E4%BB%B6%E7%9A%84%E6%84%9F%E6%83%B3-3/"/>
+    <id>https://blog.lostanother.fun/2016/01/20/2016-01-20-“亲历”烟花厂爆炸事件的感想-3/</id>
     <published>2016-01-20T04:53:00.000Z</published>
     <updated>2018-04-13T02:26:54.997Z</updated>
     
@@ -372,15 +372,15 @@ chmod 600 ~/.ssh/authorized_keys
     
     </summary>
     
-      <category term="有病呻吟" scheme="blog.lostanother.fun/categories/essay/"/>
+      <category term="有病呻吟" scheme="https://blog.lostanother.fun/categories/essay/"/>
     
     
   </entry>
   
   <entry>
     <title>家的感觉</title>
-    <link href="blog.lostanother.fun/2016/01/17/2016-01-17-%E5%AE%B6%E7%9A%84%E6%84%9F%E8%A7%89/"/>
-    <id>blog.lostanother.fun/2016/01/17/2016-01-17-家的感觉/</id>
+    <link href="https://blog.lostanother.fun/2016/01/17/2016-01-17-%E5%AE%B6%E7%9A%84%E6%84%9F%E8%A7%89/"/>
+    <id>https://blog.lostanother.fun/2016/01/17/2016-01-17-家的感觉/</id>
     <published>2016-01-17T14:49:00.000Z</published>
     <updated>2018-04-13T02:26:59.620Z</updated>
     
@@ -396,15 +396,15 @@ chmod 600 ~/.ssh/authorized_keys
     
     </summary>
     
-      <category term="有病呻吟" scheme="blog.lostanother.fun/categories/essay/"/>
+      <category term="有病呻吟" scheme="https://blog.lostanother.fun/categories/essay/"/>
     
     
   </entry>
   
   <entry>
     <title>のぞかないでよ！</title>
-    <link href="blog.lostanother.fun/2016/01/01/2016-01-01-%E3%81%AE%E3%81%9E%E3%81%8B%E3%81%AA%E3%81%84%E3%81%A7%E3%82%88%EF%BC%81-5/"/>
-    <id>blog.lostanother.fun/2016/01/01/2016-01-01-のぞかないでよ！-5/</id>
+    <link href="https://blog.lostanother.fun/2016/01/01/2016-01-01-%E3%81%AE%E3%81%9E%E3%81%8B%E3%81%AA%E3%81%84%E3%81%A7%E3%82%88%EF%BC%81-5/"/>
+    <id>https://blog.lostanother.fun/2016/01/01/2016-01-01-のぞかないでよ！-5/</id>
     <published>2015-12-31T18:27:00.000Z</published>
     <updated>2018-04-13T02:27:21.801Z</updated>
     
@@ -425,15 +425,15 @@ chmod 600 ~/.ssh/authorized_keys
     
     </summary>
     
-      <category term="有病呻吟" scheme="blog.lostanother.fun/categories/essay/"/>
+      <category term="有病呻吟" scheme="https://blog.lostanother.fun/categories/essay/"/>
     
     
   </entry>
   
   <entry>
     <title>蛀牙的真理</title>
-    <link href="blog.lostanother.fun/2015/12/21/2015-12-21-%E8%9B%80%E7%89%99%E7%9A%84%E7%9C%9F%E7%90%86-7/"/>
-    <id>blog.lostanother.fun/2015/12/21/2015-12-21-蛀牙的真理-7/</id>
+    <link href="https://blog.lostanother.fun/2015/12/21/2015-12-21-%E8%9B%80%E7%89%99%E7%9A%84%E7%9C%9F%E7%90%86-7/"/>
+    <id>https://blog.lostanother.fun/2015/12/21/2015-12-21-蛀牙的真理-7/</id>
     <published>2015-12-20T19:45:00.000Z</published>
     <updated>2018-04-13T02:27:26.417Z</updated>
     
@@ -451,15 +451,15 @@ chmod 600 ~/.ssh/authorized_keys
     
     </summary>
     
-      <category term="有病呻吟" scheme="blog.lostanother.fun/categories/essay/"/>
+      <category term="有病呻吟" scheme="https://blog.lostanother.fun/categories/essay/"/>
     
     
   </entry>
   
   <entry>
     <title>果然还是回家吧</title>
-    <link href="blog.lostanother.fun/2015/12/17/2015-12-17-%E6%9E%9C%E7%84%B6%E8%BF%98%E6%98%AF%E5%9B%9E%E5%AE%B6%E5%90%A7/"/>
-    <id>blog.lostanother.fun/2015/12/17/2015-12-17-果然还是回家吧/</id>
+    <link href="https://blog.lostanother.fun/2015/12/17/2015-12-17-%E6%9E%9C%E7%84%B6%E8%BF%98%E6%98%AF%E5%9B%9E%E5%AE%B6%E5%90%A7/"/>
+    <id>https://blog.lostanother.fun/2015/12/17/2015-12-17-果然还是回家吧/</id>
     <published>2015-12-16T21:48:00.000Z</published>
     <updated>2018-04-13T02:27:33.014Z</updated>
     
@@ -481,15 +481,15 @@ chmod 600 ~/.ssh/authorized_keys
     
     </summary>
     
-      <category term="有病呻吟" scheme="blog.lostanother.fun/categories/essay/"/>
+      <category term="有病呻吟" scheme="https://blog.lostanother.fun/categories/essay/"/>
     
     
   </entry>
   
   <entry>
     <title>没有偶像的黄昏</title>
-    <link href="blog.lostanother.fun/2015/12/16/2015-12-16-%E6%B2%A1%E6%9C%89%E5%81%B6%E5%83%8F%E7%9A%84%E9%BB%84%E6%98%8F-9/"/>
-    <id>blog.lostanother.fun/2015/12/16/2015-12-16-没有偶像的黄昏-9/</id>
+    <link href="https://blog.lostanother.fun/2015/12/16/2015-12-16-%E6%B2%A1%E6%9C%89%E5%81%B6%E5%83%8F%E7%9A%84%E9%BB%84%E6%98%8F-9/"/>
+    <id>https://blog.lostanother.fun/2015/12/16/2015-12-16-没有偶像的黄昏-9/</id>
     <published>2015-12-15T20:22:00.000Z</published>
     <updated>2018-04-13T02:27:49.565Z</updated>
     
@@ -514,15 +514,15 @@ chmod 600 ~/.ssh/authorized_keys
     
     </summary>
     
-      <category term="有病呻吟" scheme="blog.lostanother.fun/categories/essay/"/>
+      <category term="有病呻吟" scheme="https://blog.lostanother.fun/categories/essay/"/>
     
     
   </entry>
   
   <entry>
     <title>这是个艰难的决定</title>
-    <link href="blog.lostanother.fun/2015/12/02/2015-12-02-%E8%BF%99%E6%98%AF%E4%B8%AA%E8%89%B0%E9%9A%BE%E7%9A%84%E5%86%B3%E5%AE%9A-10/"/>
-    <id>blog.lostanother.fun/2015/12/02/2015-12-02-这是个艰难的决定-10/</id>
+    <link href="https://blog.lostanother.fun/2015/12/02/2015-12-02-%E8%BF%99%E6%98%AF%E4%B8%AA%E8%89%B0%E9%9A%BE%E7%9A%84%E5%86%B3%E5%AE%9A-10/"/>
+    <id>https://blog.lostanother.fun/2015/12/02/2015-12-02-这是个艰难的决定-10/</id>
     <published>2015-12-02T15:28:00.000Z</published>
     <updated>2018-04-13T02:25:21.673Z</updated>
     
@@ -543,15 +543,15 @@ chmod 600 ~/.ssh/authorized_keys
     
     </summary>
     
-      <category term="有病呻吟" scheme="blog.lostanother.fun/categories/essay/"/>
+      <category term="有病呻吟" scheme="https://blog.lostanother.fun/categories/essay/"/>
     
     
   </entry>
   
   <entry>
     <title>一次严肃的自我批评</title>
-    <link href="blog.lostanother.fun/2015/11/06/2015-11-06-%E4%B8%80%E6%AC%A1%E4%B8%A5%E8%82%83%E7%9A%84%E8%87%AA%E6%88%91%E6%89%B9%E8%AF%84/"/>
-    <id>blog.lostanother.fun/2015/11/06/2015-11-06-一次严肃的自我批评/</id>
+    <link href="https://blog.lostanother.fun/2015/11/06/2015-11-06-%E4%B8%80%E6%AC%A1%E4%B8%A5%E8%82%83%E7%9A%84%E8%87%AA%E6%88%91%E6%89%B9%E8%AF%84/"/>
+    <id>https://blog.lostanother.fun/2015/11/06/2015-11-06-一次严肃的自我批评/</id>
     <published>2015-11-06T00:44:00.000Z</published>
     <updated>2018-04-13T02:27:04.717Z</updated>
     
@@ -584,15 +584,15 @@ chmod 600 ~/.ssh/authorized_keys
     
     </summary>
     
-      <category term="有病呻吟" scheme="blog.lostanother.fun/categories/essay/"/>
+      <category term="有病呻吟" scheme="https://blog.lostanother.fun/categories/essay/"/>
     
     
   </entry>
   
   <entry>
     <title>人生西马塔</title>
-    <link href="blog.lostanother.fun/2015/11/01/2015-11-01-%E4%BA%BA%E7%94%9F%E8%A5%BF%E9%A9%AC%E5%A1%94-12/"/>
-    <id>blog.lostanother.fun/2015/11/01/2015-11-01-人生西马塔-12/</id>
+    <link href="https://blog.lostanother.fun/2015/11/01/2015-11-01-%E4%BA%BA%E7%94%9F%E8%A5%BF%E9%A9%AC%E5%A1%94-12/"/>
+    <id>https://blog.lostanother.fun/2015/11/01/2015-11-01-人生西马塔-12/</id>
     <published>2015-11-01T13:38:00.000Z</published>
     <updated>2018-04-13T02:25:28.378Z</updated>
     
@@ -613,15 +613,15 @@ chmod 600 ~/.ssh/authorized_keys
     
     </summary>
     
-      <category term="有病呻吟" scheme="blog.lostanother.fun/categories/essay/"/>
+      <category term="有病呻吟" scheme="https://blog.lostanother.fun/categories/essay/"/>
     
     
   </entry>
   
   <entry>
     <title>断网半个月中日记若干</title>
-    <link href="blog.lostanother.fun/2015/09/22/2015-09-22-%E6%96%AD%E7%BD%91%E5%8D%8A%E4%B8%AA%E6%9C%88%E4%B8%AD%E6%97%A5%E8%AE%B0%E8%8B%A5%E5%B9%B2-13/"/>
-    <id>blog.lostanother.fun/2015/09/22/2015-09-22-断网半个月中日记若干-13/</id>
+    <link href="https://blog.lostanother.fun/2015/09/22/2015-09-22-%E6%96%AD%E7%BD%91%E5%8D%8A%E4%B8%AA%E6%9C%88%E4%B8%AD%E6%97%A5%E8%AE%B0%E8%8B%A5%E5%B9%B2-13/"/>
+    <id>https://blog.lostanother.fun/2015/09/22/2015-09-22-断网半个月中日记若干-13/</id>
     <published>2015-09-22T05:03:00.000Z</published>
     <updated>2018-04-13T02:25:34.042Z</updated>
     
@@ -653,15 +653,15 @@ chmod 600 ~/.ssh/authorized_keys
     
     </summary>
     
-      <category term="有病呻吟" scheme="blog.lostanother.fun/categories/essay/"/>
+      <category term="有病呻吟" scheme="https://blog.lostanother.fun/categories/essay/"/>
     
     
   </entry>
   
   <entry>
     <title>高分少女，目标与努力</title>
-    <link href="blog.lostanother.fun/2015/09/02/2015-09-02-%E9%AB%98%E5%88%86%E5%B0%91%E5%A5%B3%EF%BC%8C%E7%9B%AE%E6%A0%87%E4%B8%8E%E5%8A%AA%E5%8A%9B-14/"/>
-    <id>blog.lostanother.fun/2015/09/02/2015-09-02-高分少女，目标与努力-14/</id>
+    <link href="https://blog.lostanother.fun/2015/09/02/2015-09-02-%E9%AB%98%E5%88%86%E5%B0%91%E5%A5%B3%EF%BC%8C%E7%9B%AE%E6%A0%87%E4%B8%8E%E5%8A%AA%E5%8A%9B-14/"/>
+    <id>https://blog.lostanother.fun/2015/09/02/2015-09-02-高分少女，目标与努力-14/</id>
     <published>2015-09-01T21:21:00.000Z</published>
     <updated>2018-04-13T02:26:49.545Z</updated>
     
@@ -680,15 +680,15 @@ chmod 600 ~/.ssh/authorized_keys
     
     </summary>
     
-      <category term="有病呻吟" scheme="blog.lostanother.fun/categories/essay/"/>
+      <category term="有病呻吟" scheme="https://blog.lostanother.fun/categories/essay/"/>
     
     
   </entry>
   
   <entry>
     <title>博客的年代与微博的年代</title>
-    <link href="blog.lostanother.fun/2015/08/26/2015-08-26-%E5%8D%9A%E5%AE%A2%E7%9A%84%E5%B9%B4%E4%BB%A3%E4%B8%8E%E5%BE%AE%E5%8D%9A%E7%9A%84%E5%B9%B4%E4%BB%A3-15/"/>
-    <id>blog.lostanother.fun/2015/08/26/2015-08-26-博客的年代与微博的年代-15/</id>
+    <link href="https://blog.lostanother.fun/2015/08/26/2015-08-26-%E5%8D%9A%E5%AE%A2%E7%9A%84%E5%B9%B4%E4%BB%A3%E4%B8%8E%E5%BE%AE%E5%8D%9A%E7%9A%84%E5%B9%B4%E4%BB%A3-15/"/>
+    <id>https://blog.lostanother.fun/2015/08/26/2015-08-26-博客的年代与微博的年代-15/</id>
     <published>2015-08-25T21:18:00.000Z</published>
     <updated>2018-04-13T02:25:41.593Z</updated>
     
@@ -709,15 +709,15 @@ chmod 600 ~/.ssh/authorized_keys
     
     </summary>
     
-      <category term="有病呻吟" scheme="blog.lostanother.fun/categories/essay/"/>
+      <category term="有病呻吟" scheme="https://blog.lostanother.fun/categories/essay/"/>
     
     
   </entry>
   
   <entry>
     <title>不小心又是一个不眠夜</title>
-    <link href="blog.lostanother.fun/2015/08/22/2015-08-22-%E4%B8%8D%E5%B0%8F%E5%BF%83%E5%8F%88%E6%98%AF%E4%B8%80%E4%B8%AA%E4%B8%8D%E7%9C%A0%E5%A4%9C-16/"/>
-    <id>blog.lostanother.fun/2015/08/22/2015-08-22-不小心又是一个不眠夜-16/</id>
+    <link href="https://blog.lostanother.fun/2015/08/22/2015-08-22-%E4%B8%8D%E5%B0%8F%E5%BF%83%E5%8F%88%E6%98%AF%E4%B8%80%E4%B8%AA%E4%B8%8D%E7%9C%A0%E5%A4%9C-16/"/>
+    <id>https://blog.lostanother.fun/2015/08/22/2015-08-22-不小心又是一个不眠夜-16/</id>
     <published>2015-08-21T22:45:00.000Z</published>
     <updated>2018-04-13T02:25:48.514Z</updated>
     
@@ -736,15 +736,15 @@ chmod 600 ~/.ssh/authorized_keys
     
     </summary>
     
-      <category term="有病呻吟" scheme="blog.lostanother.fun/categories/essay/"/>
+      <category term="有病呻吟" scheme="https://blog.lostanother.fun/categories/essay/"/>
     
     
   </entry>
   
   <entry>
     <title>重新开始写点什么吧</title>
-    <link href="blog.lostanother.fun/2015/08/07/2015-08-07-%E9%87%8D%E6%96%B0%E5%BC%80%E5%A7%8B%E5%86%99%E7%82%B9%E4%BB%80%E4%B9%88%E5%90%A7-17/"/>
-    <id>blog.lostanother.fun/2015/08/07/2015-08-07-重新开始写点什么吧-17/</id>
+    <link href="https://blog.lostanother.fun/2015/08/07/2015-08-07-%E9%87%8D%E6%96%B0%E5%BC%80%E5%A7%8B%E5%86%99%E7%82%B9%E4%BB%80%E4%B9%88%E5%90%A7-17/"/>
+    <id>https://blog.lostanother.fun/2015/08/07/2015-08-07-重新开始写点什么吧-17/</id>
     <published>2015-08-06T23:09:00.000Z</published>
     <updated>2018-04-13T02:25:53.473Z</updated>
     
@@ -760,15 +760,15 @@ chmod 600 ~/.ssh/authorized_keys
     
     </summary>
     
-      <category term="有病呻吟" scheme="blog.lostanother.fun/categories/essay/"/>
+      <category term="有病呻吟" scheme="https://blog.lostanother.fun/categories/essay/"/>
     
     
   </entry>
   
   <entry>
     <title>好一部好莱坞红色电影</title>
-    <link href="blog.lostanother.fun/2013/01/12/2013-01-12-%E5%A5%BD%E4%B8%80%E9%83%A8%E5%A5%BD%E8%8E%B1%E5%9D%9E%E7%BA%A2%E8%89%B2%E7%94%B5%E5%BD%B1-19/"/>
-    <id>blog.lostanother.fun/2013/01/12/2013-01-12-好一部好莱坞红色电影-19/</id>
+    <link href="https://blog.lostanother.fun/2013/01/12/2013-01-12-%E5%A5%BD%E4%B8%80%E9%83%A8%E5%A5%BD%E8%8E%B1%E5%9D%9E%E7%BA%A2%E8%89%B2%E7%94%B5%E5%BD%B1-19/"/>
+    <id>https://blog.lostanother.fun/2013/01/12/2013-01-12-好一部好莱坞红色电影-19/</id>
     <published>2013-01-12T15:47:00.000Z</published>
     <updated>2018-04-13T02:26:01.032Z</updated>
     
@@ -789,15 +789,15 @@ chmod 600 ~/.ssh/authorized_keys
     
     </summary>
     
-      <category term="有病呻吟" scheme="blog.lostanother.fun/categories/essay/"/>
+      <category term="有病呻吟" scheme="https://blog.lostanother.fun/categories/essay/"/>
     
     
   </entry>
   
   <entry>
     <title>隐而不见的偏见</title>
-    <link href="blog.lostanother.fun/2012/10/19/2012-10-19-%E9%9A%90%E8%80%8C%E4%B8%8D%E8%A7%81%E7%9A%84%E5%81%8F%E8%A7%81-21/"/>
-    <id>blog.lostanother.fun/2012/10/19/2012-10-19-隐而不见的偏见-21/</id>
+    <link href="https://blog.lostanother.fun/2012/10/19/2012-10-19-%E9%9A%90%E8%80%8C%E4%B8%8D%E8%A7%81%E7%9A%84%E5%81%8F%E8%A7%81-21/"/>
+    <id>https://blog.lostanother.fun/2012/10/19/2012-10-19-隐而不见的偏见-21/</id>
     <published>2012-10-19T06:37:00.000Z</published>
     <updated>2018-04-13T02:26:05.713Z</updated>
     
@@ -810,7 +810,7 @@ chmod 600 ~/.ssh/authorized_keys
     
     </summary>
     
-      <category term="有病呻吟" scheme="blog.lostanother.fun/categories/essay/"/>
+      <category term="有病呻吟" scheme="https://blog.lostanother.fun/categories/essay/"/>
     
     
   </entry>
