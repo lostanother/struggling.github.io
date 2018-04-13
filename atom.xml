@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="blog.lostanother.fun/"/>
-  <updated>2018-04-13T02:24:27.926Z</updated>
+  <updated>2018-04-13T02:41:00.224Z</updated>
   <id>blog.lostanother.fun/</id>
   
   <author>
@@ -20,7 +20,7 @@
     <link href="blog.lostanother.fun/2018/04/10/Hide-your-v2ray-behind-a-normal-websit/"/>
     <id>blog.lostanother.fun/2018/04/10/Hide-your-v2ray-behind-a-normal-websit/</id>
     <published>2018-04-10T00:16:58.000Z</published>
-    <updated>2018-04-13T02:24:27.926Z</updated>
+    <updated>2018-04-13T02:41:00.224Z</updated>
     
     <content type="html"><![CDATA[<p>去年10月开始，国内就开始传言GFW已经掌握识别SS流量技术（详见《<a href="https://github.com/shadowsocks/shadowsocks/issues/988" target="_blank" rel="external">ss已经被特征识别了，请大家跑路</a>》），同时许多网友在网上报告自己搭建ss的vps被GFW认证。所幸的是，当时我的vps除了不知道什么原因失联一次，可以说是免于一劫。然而，今年开年党国对vps的屏蔽愈演愈烈（详见《<a href="https://doub.io/sxsx-12/" target="_blank" rel="external">关于最近(01月24日后) GFW 大规模封禁 代理服务器IP 的一些猜测
 </a>》），终于在1月我vastitude才开通不久的ip173开头的vps被封，这家服务商买时说是能换机房，我在被墙当天提交了申请，申请完提示等待，一旦完成会发邮件告知，然而我却一直等到了除夕夜，我alpharack的7刀年付小鸡也惨遭毒手——一时间我居然又回到要仰仗赛风这类安全黑箱的地步！几天后在vastitude重新申请了一边并发工单、一边找网页客服聊天催促，才终于给我换好机房。我的翻墙之梯也才重新安定下来。alpharacks的机器也就挂了个H@H然后随他吃灰了</p>
@@ -158,6 +158,8 @@ RewriteRule /(.*)           http://localhost:3579/$1 [P,L]
       <category term="v2ray" scheme="blog.lostanother.fun/tags/v2ray/"/>
     
       <category term="apache2" scheme="blog.lostanother.fun/tags/apache2/"/>
+    
+      <category term="vps" scheme="blog.lostanother.fun/tags/vps/"/>
     
   </entry>
   
