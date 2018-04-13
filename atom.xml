@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://blog.lostanother.fun/"/>
-  <updated>2018-04-13T10:26:09.003Z</updated>
+  <updated>2018-04-13T11:55:13.799Z</updated>
   <id>https://blog.lostanother.fun/</id>
   
   <author>
@@ -20,15 +20,17 @@
     <link href="https://blog.lostanother.fun/2018/04/13/learning-of-Candlestick-Charts/"/>
     <id>https://blog.lostanother.fun/2018/04/13/learning-of-Candlestick-Charts/</id>
     <published>2018-04-13T09:54:50.000Z</published>
-    <updated>2018-04-13T10:26:09.003Z</updated>
+    <updated>2018-04-13T11:55:13.799Z</updated>
     
-    <content type="html"><![CDATA[<h2 id="1-什么是K线"><a href="#1-什么是K线" class="headerlink" title="1. 什么是K线"></a>1. 什么是K线</h2><p>英文：Candles Chart，又名蜡烛图。日本德川幕府时期米商发明。</p>
+    <content type="html"><![CDATA[<p>网课<a href="http://study.163.com/course/introduction.htm?courseId=1003597016" target="_blank" rel="external">《K线入门》</a>学习笔记，要做一棵有上进心的韭菜。</p>
+<hr>
+<h2 id="1-什么是K线"><a href="#1-什么是K线" class="headerlink" title="1. 什么是K线"></a>1. 什么是K线</h2><p>英文：Candles Chart，又名蜡烛图。日本德川幕府时期米商发明。</p>
 <p><img src="K.PNG" alt="K线的组成"></p>
 <p>影线表明多空搏斗的迹象，实体大小表明市场力量。</p>
 <h2 id="2-单根k线形态"><a href="#2-单根k线形态" class="headerlink" title="2. 单根k线形态"></a>2. 单根k线形态</h2><p><strong>大阳线</strong>，可能盘整末期加速上涨，跌势末期跌势可能减弱甚至反转，涨势末期有见顶回落的风险</p>
-<p><strong>大阴线</strong>，表明有下跌倾向。
+<p>2.<strong>大阴线</strong>，表明有下跌倾向。
 1. 大幅上涨后出现大阴线，如果对应成交量有所放大，表明主力有出货倾向，卖出为宜。
-2. 
+2. 横向盘整状态，出现大阴线，印证盘久必跌
 3.  刚开始下跌出现大阴线，对跌势起到确认的作用，建议投资者应当清仓退出
 4.  较大跌幅或连续下跌后出现大阴线，暗示做空能量已接近力竭，建议做好买进准备。</p>
 <p><em>注意：K线图的用处主要是显示市场情绪，释放信号，并不意味着行情立马反转</em></p>
@@ -36,16 +38,17 @@
 <p><strong>十字星</strong>，上下影线很长，没有实体或者实体很小
 1. 上升与下跌阶段出现十字星，并未改变趋势，只是起到中继作用。
 2. 上升或下跌末期，代表反转变盘的</p>
-<p><img src="thread of harmer.PNG" alt="锤子线"></p>
+<p><img src="harmer.PNG" alt="锤子线"></p>
 <p><strong>锤子线</strong>，实体很短，下影线长于实体两倍以上，没有上影线或者上影线很短，可阴可阳。主要出现在整体价格的底部，代表买入信号。</p>
 <p><img src="hang.PNG" alt="上吊线"></p>
 <p><strong>上吊线</strong>，与锤子线对应，当出现在顶部且交易量放大时，是卖出的信号。</p>
+<h2 id="倒转锤头与射击之星"><a href="#倒转锤头与射击之星" class="headerlink" title="倒转锤头与射击之星"></a>倒转锤头与射击之星</h2><p><img src="turned_harmer.PNG" alt="倒转锤头"></p>
+<p><strong>倒转锤头</strong>，倒转的锤子线，出现在下跌趋势中，通常已有较大跌幅，或出现在阶段性地位。应用情况：虽然阳线倒转锤头比阴线更看涨，但两者区别并不太大。一般来说，上影线越长实体越小，下跌时间越长幅度越大，倒转锤头的止跌更明显，反转的可能也越大；同时应当注意，上影线说明上访的力量较大，因此在倒转锤后需要等待第二根阳线、最好是大阳线或者其他看涨信号进行确认。</p>
 ]]></content>
     
     <summary type="html">
     
-      &lt;h2 id=&quot;1-什么是K线&quot;&gt;&lt;a href=&quot;#1-什么是K线&quot; class=&quot;headerlink&quot; title=&quot;1. 什么是K线&quot;&gt;&lt;/a&gt;1. 什么是K线&lt;/h2&gt;&lt;p&gt;英文：Candles Chart，又名蜡烛图。日本德川幕府时期米商发明。&lt;/p&gt;
-&lt;p&gt;&lt;img
+      &lt;p&gt;网课&lt;a href=&quot;http://study.163.com/course/introduction.htm?courseId=1003597016&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;《K线入门》&lt;/a&gt;学习笔记，要做一棵有上进心的韭菜。&lt;/
     
     </summary>
     
