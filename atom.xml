@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://blog.lostanother.fun/"/>
-  <updated>2018-04-13T15:08:01.891Z</updated>
+  <updated>2018-04-14T02:19:02.745Z</updated>
   <id>https://blog.lostanother.fun/</id>
   
   <author>
@@ -20,7 +20,7 @@
     <link href="https://blog.lostanother.fun/2018/04/13/learning-of-Candlestick-Charts/"/>
     <id>https://blog.lostanother.fun/2018/04/13/learning-of-Candlestick-Charts/</id>
     <published>2018-04-13T09:54:50.000Z</published>
-    <updated>2018-04-13T15:08:01.891Z</updated>
+    <updated>2018-04-14T02:19:02.745Z</updated>
     
     <content type="html"><![CDATA[<p>即使被庄家收割是韭菜无可逃避的的命运，我们也要做一棵有上进心的韭菜。去年12月中旬接盘两万的比特币一直拖到现在，三万本金只剩三千不到，终于忍不住得开始学习投资相关的知识了。
 这篇是网课<a href="http://study.163.com/course/introduction.htm?courseId=1003597016" target="_blank" rel="external">《K线入门》</a>的学习笔记</p>
@@ -28,21 +28,27 @@
 <h2 id="什么是K线"><a href="#什么是K线" class="headerlink" title="什么是K线"></a>什么是K线</h2><p>英文：Candles Chart，又名蜡烛图。日本德川幕府时期米商发明。</p>
 <p><img src="K.PNG" alt="K线的组成"></p>
 <p>影线表明多空搏斗的迹象，实体大小表明市场力量。</p>
-<h2 id="单根k线形态"><a href="#单根k线形态" class="headerlink" title="单根k线形态"></a>单根k线形态</h2><p><strong>大阳线</strong>，可能盘整末期加速上涨，跌势末期跌势可能减弱甚至反转，涨势末期有见顶回落的风险</p>
+<h2 id="单根k线形态"><a href="#单根k线形态" class="headerlink" title="单根k线形态"></a>单根k线形态</h2><p>分类：</p>
+<ul>
+<li>大K线：变动在百分之七以上</li>
+<li>中K线：幅度在百分之三到百分之七之间</li>
+<li>小K线：幅度在百分之一到百分之三之间</li>
+</ul>
+<p><strong>大阳线</strong>，可能盘整末期加速上涨，跌势末期跌势可能减弱甚至反转，涨势末期有见顶回落的风险</p>
 <p><strong>大阴线</strong>，表明有下跌倾向。</p>
-<ol>
+<ul>
 <li>大幅上涨后出现大阴线，如果对应成交量有所放大，表明主力有出货倾向，卖出为宜。</li>
 <li>横向盘整状态，出现大阴线，印证盘久必跌</li>
 <li>刚开始下跌出现大阴线，对跌势起到确认的作用，建议投资者应当清仓退出</li>
 <li>较大跌幅或连续下跌后出现大阴线，暗示做空能量已接近力竭，建议做好买进准备。</li>
-</ol>
+</ul>
 <p><em>注意：K线图的用处主要是显示市场情绪，释放信号，并不意味着行情立马反转</em></p>
 <p><img src="star of ten.PNG" alt="十字星"></p>
 <p><strong>十字星</strong>，上下影线很长，没有实体或者实体很小</p>
-<ol>
+<ul>
 <li>上升与下跌阶段出现十字星，并未改变趋势，只是起到中继作用。</li>
 <li>上升或下跌末期，代表反转变盘的</li>
-</ol>
+</ul>
 <p><img src="harmer.PNG" alt="锤子线"></p>
 <p><strong>锤子线</strong>，实体很短，下影线长于实体两倍以上，没有上影线或者上影线很短，可阴可阳。主要出现在整体价格的底部，代表买入信号。</p>
 <p><img src="hang.PNG" alt="上吊线"></p>
@@ -67,6 +73,37 @@
 <p><strong>倒T字线</strong> ，形态特征：就是倒T字线</p>
 <p>应用：出现在高价区，又叫下跌转折线，是卖出信号；出现在下跌末期，是买入信号，特别是末期下跌三连阴后出现倒T字线，或二黑夹一红后出现倒T字线，如果第二天出现大阳线，组成早晨之星或身怀六甲，是一个非常好的切入点。上影线越长，力度越大，信号越可靠</p>
 <h2 id="三法形态"><a href="#三法形态" class="headerlink" title="三法形态"></a>三法形态</h2><p><img src="three_law.PNG" alt="三法形态"></p>
+<p>形态特征：</p>
+<ol>
+<li>在趋势中出现一根大K线或者中K线</li>
+<li>出现若干根实体短小的K线，并且实体必须在第一根（包括影线）的高低点范围内。</li>
+<li>出现一根与第一根同阴（下降）或者同阳（上升）的大K线，且开盘价和收盘价同时高于（同阳）或低于（同阴）第一根K线，全部吞没前三个根实体短小的K线。</li>
+</ol>
+<p>含义：趋势暂时中断，但反转力量太弱不足以改变趋势，是一个盘整期。盘整后之前的趋势仍将延续。</p>
+<h2 id="清晨之星与黄昏之星"><a href="#清晨之星与黄昏之星" class="headerlink" title="清晨之星与黄昏之星"></a>清晨之星与黄昏之星</h2><p><img src="asa.PNG" alt="清晨之星"></p>
+<p>形态特征：</p>
+<ol>
+<li>第一根K线是具有较大实体的阴线（最好是大阴线。下降趋势末期的大阴线可能是空方力竭的信号）</li>
+<li>第二根K线是一根有下影线的小阳、小阴十字线，可带上下影线</li>
+<li>第三根K线是一根阳线，它明显向上深入到第一天阴线的是体制内。</li>
+</ol>
+<p>三根都具有反转效果的组合一起出现在趋势末期，是较为强烈的反转信号。</p>
+<p>注意：</p>
+<ul>
+<li>清晨之星也可以由多根K线组成，清晨双星、三星的K线组合与清晨之星意义基本相同</li>
+<li>阳线实体深入阴线实体的部分越多，转势信号越强</li>
+<li>第一根K线对应的成交量越小，第三根K线对应的成交量越大，其信号越可靠</li>
+<li>清晨十字星的转势信号比一般的清晨之星强</li>
+</ul>
+<p>应用：</p>
+<ul>
+<li>清晨之星出现在下降趋势末端才具有看涨的意义。若跌幅不大，则信号可靠信也差。</li>
+<li>若清晨之星出现后，次日价格向上跳空开盘或是在较高价位拉出一根放量阳线，则其转势向上的信号就越强。</li>
+<li>清晨之星是次要的底部反转信号，一旦出现，等待次日验证信号就很重要。如果决定介入，清晨之星的最低价往往是很好的止损位，一旦跌破该价就应当及时止损出局。</li>
+<li>应当结合均线系统进行分析，特别会大幅下跌后，均线系统中5日线有向上弯头迹象时，出现清晨之星则见底可靠性大大增强</li>
+<li>如果中间的K线是螺旋桨，锤头线、倒锤头线等带有很长影线的K线，则见底信号更强</li>
+</ul>
+<p>黄昏之星与清晨之星形态、意义相反。</p>
 ]]></content>
     
     <summary type="html">
@@ -81,9 +118,9 @@
     
       <category term="笔记" scheme="https://blog.lostanother.fun/tags/%E7%AC%94%E8%AE%B0/"/>
     
-      <category term="炒币" scheme="https://blog.lostanother.fun/tags/%E7%82%92%E5%B8%81/"/>
-    
       <category term="k线" scheme="https://blog.lostanother.fun/tags/k%E7%BA%BF/"/>
+    
+      <category term="投资理论" scheme="https://blog.lostanother.fun/tags/%E6%8A%95%E8%B5%84%E7%90%86%E8%AE%BA/"/>
     
   </entry>
   
