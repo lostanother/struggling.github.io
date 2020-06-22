@@ -262,13 +262,13 @@ RewriteRule /(.*)           http://localhost:3579/$1 [P,L]
       <category term="软硬兼施" scheme="https://blog.lostanother.fun/categories/hard-software/"/>
     
     
+      <category term="vps" scheme="https://blog.lostanother.fun/tags/vps/"/>
+    
       <category term="翻墙" scheme="https://blog.lostanother.fun/tags/%E7%BF%BB%E5%A2%99/"/>
     
       <category term="v2ray" scheme="https://blog.lostanother.fun/tags/v2ray/"/>
     
       <category term="apache2" scheme="https://blog.lostanother.fun/tags/apache2/"/>
-    
-      <category term="vps" scheme="https://blog.lostanother.fun/tags/vps/"/>
     
   </entry>
   
